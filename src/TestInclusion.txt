@@ -1,0 +1,9 @@
+Objeto cargado skull.obj
+ Vertices: 20002	Triangulos:40000.
+
+Objeto cargado skull.obj
+ Vertices: 20002	Triangulos:40000.
+
+Objeto cargado skull.obj
+ Vertices: 20002	Triangulos:40000.
+

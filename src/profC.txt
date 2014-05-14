@@ -1,0 +1,1041 @@
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls   s/call   s/call  name    
+ 67.07      1.12     1.12 10083169     0.00     0.00  signcoordBary(p3Df, p3Df, p3Df, p3Df, p3Df, int, signcoordB*)
+ 12.57      1.33     0.21  5916048     0.00     0.00  tetraSeg(p3Df, p3Df, p3Df, p3Df, p3Df)
+  9.58      1.49     0.16   841760     0.00     0.00  clasifyTriang(tetracone*, int, mesh*, p3Df)
+  5.69      1.58     0.10  1974951     0.00     0.00  tetraPoint(p3Df, p3Df, p3Df, p3Df, p3Df)
+  3.59      1.65     0.06 20489125     0.00     0.00  std::vector<p3Df, std::allocator<p3Df> >::operator[](unsigned int)
+  0.60      1.66     0.01  2192170     0.00     0.00  tetraPoint(p3Df, p3Df, p3Df, p3Df, p3Df, int)
+  0.60      1.67     0.01   864140     0.00     0.00  std::vector<int, std::allocator<int> >::size() const
+  0.30      1.67     0.01                             testTetraPointLimit(p3Df, p3Df, p3Df, p3Df, p3Df)
+  0.00      1.67     0.00  3407040     0.00     0.00  std::vector<triangle, std::allocator<triangle> >::operator[](unsigned int)
+  0.00      1.67     0.00   841760     0.00     0.00  std::vector<int, std::allocator<int> >::operator[](unsigned int)
+  0.00      1.67     0.00   284553     0.00     0.00  operator new(unsigned int, void*)
+  0.00      1.67     0.00   224551     0.00     0.00  __gnu_cxx::new_allocator<int>::construct(int*, int const&)
+  0.00      1.67     0.00   224551     0.00     0.00  std::vector<int, std::allocator<int> >::push_back(int const&)
+  0.00      1.67     0.00    80073     0.00     0.00  std::vector<triangle, std::allocator<triangle> >::size() const
+  0.00      1.67     0.00    40000     0.00     0.00  __gnu_cxx::new_allocator<triangle>::construct(triangle*, triangle const&)
+  0.00      1.67     0.00    40000     0.00     0.00  std::vector<triangle, std::allocator<triangle> >::push_back(triangle const&)
+  0.00      1.67     0.00    31274     0.00     0.00  std::__niter_base<int*, false>::__b(int*)
+  0.00      1.67     0.00    20460     0.00     0.00  __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >::base() const
+  0.00      1.67     0.00    20460     0.00     0.00  std::__miter_base<int*, false>::__b(int*)
+  0.00      1.67     0.00    20073     0.00     0.00  std::vector<p3Df, std::allocator<p3Df> >::size() const
+  0.00      1.67     0.00    20002     0.00     0.00  __gnu_cxx::new_allocator<p3Df>::construct(p3Df*, p3Df const&)
+  0.00      1.67     0.00    20002     0.00     0.00  std::vector<p3Df, std::allocator<p3Df> >::push_back(p3Df const&)
+  0.00      1.67     0.00    17675     0.00     0.00  std::_Vector_base<int, std::allocator<int> >::_M_get_Tp_allocator()
+  0.00      1.67     0.00    15929     0.00     0.00  __gnu_cxx::new_allocator<int>::max_size() const
+  0.00      1.67     0.00    10814     0.00     0.00  std::_Vector_base<int, std::allocator<int> >::_M_get_Tp_allocator() const
+  0.00      1.67     0.00    10814     0.00     0.00  int* std::__copy_move<false, true, std::random_access_iterator_tag>::__copy_m<int>(int const*, int const*, int*)
+  0.00      1.67     0.00    10230     0.00     0.00  __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >::__normal_iterator(int* const&)
+  0.00      1.67     0.00    10230     0.00     0.00  std::vector<int, std::allocator<int> >::max_size() const
+  0.00      1.67     0.00    10230     0.00     0.00  int* std::__uninitialized_copy<true>::uninitialized_copy<int*, int*>(int*, int*, int*)
+  0.00      1.67     0.00    10230     0.00     0.00  int* std::__copy_move_a<false, int*, int*>(int*, int*, int*)
+  0.00      1.67     0.00    10230     0.00     0.00  int* std::__copy_move_a2<false, int*, int*>(int*, int*, int*)
+  0.00      1.67     0.00    10230     0.00     0.00  int* std::uninitialized_copy<int*, int*>(int*, int*, int*)
+  0.00      1.67     0.00    10230     0.00     0.00  int* std::__uninitialized_copy_a<int*, int*, int>(int*, int*, int*, std::allocator<int>&)
+  0.00      1.67     0.00    10230     0.00     0.00  int* std::__uninitialized_move_a<int*, int*, std::allocator<int> >(int*, int*, int*, std::allocator<int>&)
+  0.00      1.67     0.00    10230     0.00     0.00  int* std::copy<int*, int*>(int*, int*, int*)
+  0.00      1.67     0.00     6861     0.00     0.00  void std::_Destroy_aux<true>::__destroy<int*>(int*, int*)
+  0.00      1.67     0.00     6861     0.00     0.00  void std::_Destroy<int*>(int*, int*)
+  0.00      1.67     0.00     6861     0.00     0.00  void std::_Destroy<int*, int>(int*, int*, std::allocator<int>&)
+  0.00      1.67     0.00     6277     0.00     0.00  std::_Vector_base<int, std::allocator<int> >::_M_deallocate(int*, unsigned int)
+  0.00      1.67     0.00     5699     0.00     0.00  __gnu_cxx::new_allocator<int>::allocate(unsigned int, void const*)
+  0.00      1.67     0.00     5699     0.00     0.00  std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned int)
+  0.00      1.67     0.00     5691     0.00     0.00  __gnu_cxx::new_allocator<int>::deallocate(int*, unsigned int)
+  0.00      1.67     0.00     5148     0.00     0.00  unsigned int const& std::max<unsigned int>(unsigned int const&, unsigned int const&)
+  0.00      1.67     0.00     5115     0.00     0.00  __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >::difference_type __gnu_cxx::operator-<int*, std::vector<int, std::allocator<int> > >(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > > const&, __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > > const&)
+  0.00      1.67     0.00     5115     0.00     0.00  std::vector<int, std::allocator<int> >::_M_check_len(unsigned int, char const*) const
+  0.00      1.67     0.00     5115     0.00     0.00  std::vector<int, std::allocator<int> >::_M_insert_aux(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int const&)
+  0.00      1.67     0.00     5115     0.00     0.00  std::vector<int, std::allocator<int> >::end()
+  0.00      1.67     0.00     5115     0.00     0.00  std::vector<int, std::allocator<int> >::begin()
+  0.00      1.67     0.00     1168     0.00     0.00  __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >::__normal_iterator(int const* const&)
+  0.00      1.67     0.00     1168     0.00     0.00  __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >::base() const
+  0.00      1.67     0.00     1168     0.00     0.00  std::__miter_base<__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, false>::__b(__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >)
+  0.00      1.67     0.00     1168     0.00     0.00  std::__niter_base<__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, true>::__b(__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >)
+  0.00      1.67     0.00     1162     0.00     0.00  __gnu_cxx::new_allocator<int>::new_allocator()
+  0.00      1.67     0.00     1162     0.00     0.00  __gnu_cxx::new_allocator<int>::~new_allocator()
+  0.00      1.67     0.00     1162     0.00     0.00  std::allocator<int>::allocator()
+  0.00      1.67     0.00     1162     0.00     0.00  std::allocator<int>::~allocator()
+  0.00      1.67     0.00     1162     0.00     0.00  std::_Vector_base<int, std::allocator<int> >::_Vector_impl::_Vector_impl()
+  0.00      1.67     0.00     1162     0.00     0.00  std::_Vector_base<int, std::allocator<int> >::_Vector_impl::~_Vector_impl()
+  0.00      1.67     0.00     1162     0.00     0.00  std::_Vector_base<int, std::allocator<int> >::_Vector_base()
+  0.00      1.67     0.00     1162     0.00     0.00  std::_Vector_base<int, std::allocator<int> >::~_Vector_base()
+  0.00      1.67     0.00     1162     0.00     0.00  std::vector<int, std::allocator<int> >::vector()
+  0.00      1.67     0.00     1161     0.00     0.00  std::vector<int, std::allocator<int> >::~vector()
+  0.00      1.67     0.00     1160     0.00     0.00  tetracone::tetracone()
+  0.00      1.67     0.00      584     0.00     0.00  __gnu_cxx::new_allocator<int>::new_allocator(__gnu_cxx::new_allocator<int> const&)
+  0.00      1.67     0.00      584     0.00     0.00  std::vector<int, std::allocator<int> >::end() const
+  0.00      1.67     0.00      584     0.00     0.00  std::vector<int, std::allocator<int> >::begin() const
+  0.00      1.67     0.00      584     0.00     0.00  std::allocator<int>::allocator(std::allocator<int> const&)
+  0.00      1.67     0.00      584     0.00     0.00  std::_Vector_base<int, std::allocator<int> >::_Vector_impl::_Vector_impl(std::allocator<int> const&)
+  0.00      1.67     0.00      584     0.00     0.00  std::_Vector_base<int, std::allocator<int> >::_Vector_base(unsigned int, std::allocator<int> const&)
+  0.00      1.67     0.00      584     0.00     0.00  int* std::__uninitialized_copy<true>::uninitialized_copy<__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, int*>(__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, int*)
+  0.00      1.67     0.00      584     0.00     0.00  std::vector<int, std::allocator<int> >::_M_erase_at_end(int*)
+  0.00      1.67     0.00      584     0.00     0.00  std::vector<int, std::allocator<int> >::clear()
+  0.00      1.67     0.00      584     0.00     0.00  std::vector<int, std::allocator<int> >::vector(std::vector<int, std::allocator<int> > const&)
+  0.00      1.67     0.00      584     0.00     0.00  int* std::__copy_move_a<false, int const*, int*>(int const*, int const*, int*)
+  0.00      1.67     0.00      584     0.00     0.00  int* std::__copy_move_a2<false, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, int*>(__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, int*)
+  0.00      1.67     0.00      584     0.00     0.00  int* std::uninitialized_copy<__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, int*>(__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, int*)
+  0.00      1.67     0.00      584     0.00     0.00  int* std::__uninitialized_copy_a<__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, int*, int>(__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, int*, std::allocator<int>&)
+  0.00      1.67     0.00      584     0.00     0.00  int* std::copy<__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, int*>(__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, int*)
+  0.00      1.67     0.00      576     0.00     0.00  tetracone::~tetracone()
+  0.00      1.67     0.00      102     0.00     0.00  std::__niter_base<triangle*, false>::__b(triangle*)
+  0.00      1.67     0.00       96     0.00     0.00  std::__niter_base<p3Df*, false>::__b(p3Df*)
+  0.00      1.67     0.00       68     0.00     0.00  __gnu_cxx::__normal_iterator<triangle*, std::vector<triangle, std::allocator<triangle> > >::base() const
+  0.00      1.67     0.00       68     0.00     0.00  std::__miter_base<triangle*, false>::__b(triangle*)
+  0.00      1.67     0.00       64     0.00     0.00  __gnu_cxx::__normal_iterator<p3Df*, std::vector<p3Df, std::allocator<p3Df> > >::base() const
+  0.00      1.67     0.00       64     0.00     0.00  std::__miter_base<p3Df*, false>::__b(p3Df*)
+  0.00      1.67     0.00       54     0.00     0.00  std::_Vector_base<p3Df, std::allocator<p3Df> >::_M_get_Tp_allocator()
+  0.00      1.67     0.00       53     0.00     0.00  std::_Vector_base<triangle, std::allocator<triangle> >::_M_get_Tp_allocator()
+  0.00      1.67     0.00       51     0.00     0.00  __gnu_cxx::new_allocator<triangle>::max_size() const
+  0.00      1.67     0.00       48     0.00     0.00  __gnu_cxx::new_allocator<p3Df>::max_size() const
+  0.00      1.67     0.00       34     0.00     0.00  __gnu_cxx::__normal_iterator<triangle*, std::vector<triangle, std::allocator<triangle> > >::__normal_iterator(triangle* const&)
+  0.00      1.67     0.00       34     0.00     0.00  std::_Vector_base<triangle, std::allocator<triangle> >::_M_get_Tp_allocator() const
+  0.00      1.67     0.00       34     0.00     0.00  std::vector<triangle, std::allocator<triangle> >::max_size() const
+  0.00      1.67     0.00       34     0.00     0.00  triangle* std::__copy_move<false, true, std::random_access_iterator_tag>::__copy_m<triangle>(triangle const*, triangle const*, triangle*)
+  0.00      1.67     0.00       34     0.00     0.00  triangle* std::__uninitialized_copy<true>::uninitialized_copy<triangle*, triangle*>(triangle*, triangle*, triangle*)
+  0.00      1.67     0.00       34     0.00     0.00  triangle* std::__copy_move_a<false, triangle*, triangle*>(triangle*, triangle*, triangle*)
+  0.00      1.67     0.00       34     0.00     0.00  triangle* std::__copy_move_a2<false, triangle*, triangle*>(triangle*, triangle*, triangle*)
+  0.00      1.67     0.00       34     0.00     0.00  triangle* std::uninitialized_copy<triangle*, triangle*>(triangle*, triangle*, triangle*)
+  0.00      1.67     0.00       34     0.00     0.00  triangle* std::__uninitialized_copy_a<triangle*, triangle*, triangle>(triangle*, triangle*, triangle*, std::allocator<triangle>&)
+  0.00      1.67     0.00       34     0.00     0.00  triangle* std::__uninitialized_move_a<triangle*, triangle*, std::allocator<triangle> >(triangle*, triangle*, triangle*, std::allocator<triangle>&)
+  0.00      1.67     0.00       34     0.00     0.00  triangle* std::copy<triangle*, triangle*>(triangle*, triangle*, triangle*)
+  0.00      1.67     0.00       32     0.00     0.00  __gnu_cxx::__normal_iterator<p3Df*, std::vector<p3Df, std::allocator<p3Df> > >::__normal_iterator(p3Df* const&)
+  0.00      1.67     0.00       32     0.00     0.00  std::_Vector_base<p3Df, std::allocator<p3Df> >::_M_get_Tp_allocator() const
+  0.00      1.67     0.00       32     0.00     0.00  std::vector<p3Df, std::allocator<p3Df> >::max_size() const
+  0.00      1.67     0.00       32     0.00     0.00  p3Df* std::__copy_move<false, true, std::random_access_iterator_tag>::__copy_m<p3Df>(p3Df const*, p3Df const*, p3Df*)
+  0.00      1.67     0.00       32     0.00     0.00  p3Df* std::__uninitialized_copy<true>::uninitialized_copy<p3Df*, p3Df*>(p3Df*, p3Df*, p3Df*)
+  0.00      1.67     0.00       32     0.00     0.00  p3Df* std::__copy_move_a<false, p3Df*, p3Df*>(p3Df*, p3Df*, p3Df*)
+  0.00      1.67     0.00       32     0.00     0.00  p3Df* std::__copy_move_a2<false, p3Df*, p3Df*>(p3Df*, p3Df*, p3Df*)
+  0.00      1.67     0.00       32     0.00     0.00  p3Df* std::uninitialized_copy<p3Df*, p3Df*>(p3Df*, p3Df*, p3Df*)
+  0.00      1.67     0.00       32     0.00     0.00  p3Df* std::__uninitialized_copy_a<p3Df*, p3Df*, p3Df>(p3Df*, p3Df*, p3Df*, std::allocator<p3Df>&)
+  0.00      1.67     0.00       32     0.00     0.00  p3Df* std::__uninitialized_move_a<p3Df*, p3Df*, std::allocator<p3Df> >(p3Df*, p3Df*, p3Df*, std::allocator<p3Df>&)
+  0.00      1.67     0.00       32     0.00     0.00  p3Df* std::copy<p3Df*, p3Df*>(p3Df*, p3Df*, p3Df*)
+  0.00      1.67     0.00       22     0.00     0.00  void std::_Destroy_aux<true>::__destroy<p3Df*>(p3Df*, p3Df*)
+  0.00      1.67     0.00       22     0.00     0.00  void std::_Destroy<p3Df*>(p3Df*, p3Df*)
+  0.00      1.67     0.00       22     0.00     0.00  void std::_Destroy<p3Df*, p3Df>(p3Df*, p3Df*, std::allocator<p3Df>&)
+  0.00      1.67     0.00       19     0.00     0.00  void std::_Destroy_aux<true>::__destroy<triangle*>(triangle*, triangle*)
+  0.00      1.67     0.00       19     0.00     0.00  std::_Vector_base<p3Df, std::allocator<p3Df> >::_M_deallocate(p3Df*, unsigned int)
+  0.00      1.67     0.00       19     0.00     0.00  void std::_Destroy<triangle*>(triangle*, triangle*)
+  0.00      1.67     0.00       19     0.00     0.00  void std::_Destroy<triangle*, triangle>(triangle*, triangle*, std::allocator<triangle>&)
+  0.00      1.67     0.00       18     0.00     0.00  std::_Vector_base<triangle, std::allocator<triangle> >::_M_deallocate(triangle*, unsigned int)
+  0.00      1.67     0.00       17     0.00     0.00  __gnu_cxx::new_allocator<triangle>::deallocate(triangle*, unsigned int)
+  0.00      1.67     0.00       17     0.00     0.00  __gnu_cxx::new_allocator<triangle>::allocate(unsigned int, void const*)
+  0.00      1.67     0.00       17     0.00     0.00  __gnu_cxx::__normal_iterator<triangle*, std::vector<triangle, std::allocator<triangle> > >::difference_type __gnu_cxx::operator-<triangle*, std::vector<triangle, std::allocator<triangle> > >(__gnu_cxx::__normal_iterator<triangle*, std::vector<triangle, std::allocator<triangle> > > const&, __gnu_cxx::__normal_iterator<triangle*, std::vector<triangle, std::allocator<triangle> > > const&)
+  0.00      1.67     0.00       17     0.00     0.00  std::vector<triangle, std::allocator<triangle> >::_M_check_len(unsigned int, char const*) const
+  0.00      1.67     0.00       17     0.00     0.00  std::_Vector_base<triangle, std::allocator<triangle> >::_M_allocate(unsigned int)
+  0.00      1.67     0.00       17     0.00     0.00  std::vector<triangle, std::allocator<triangle> >::_M_insert_aux(__gnu_cxx::__normal_iterator<triangle*, std::vector<triangle, std::allocator<triangle> > >, triangle const&)
+  0.00      1.67     0.00       17     0.00     0.00  std::vector<triangle, std::allocator<triangle> >::end()
+  0.00      1.67     0.00       17     0.00     0.00  std::vector<triangle, std::allocator<triangle> >::begin()
+  0.00      1.67     0.00       16     0.00     0.00  tetraPointLimits(signcoordB*)
+  0.00      1.67     0.00       16     0.00     0.00  __gnu_cxx::new_allocator<p3Df>::deallocate(p3Df*, unsigned int)
+  0.00      1.67     0.00       16     0.00     0.00  __gnu_cxx::new_allocator<p3Df>::allocate(unsigned int, void const*)
+  0.00      1.67     0.00       16     0.00     0.00  __gnu_cxx::__normal_iterator<p3Df*, std::vector<p3Df, std::allocator<p3Df> > >::difference_type __gnu_cxx::operator-<p3Df*, std::vector<p3Df, std::allocator<p3Df> > >(__gnu_cxx::__normal_iterator<p3Df*, std::vector<p3Df, std::allocator<p3Df> > > const&, __gnu_cxx::__normal_iterator<p3Df*, std::vector<p3Df, std::allocator<p3Df> > > const&)
+  0.00      1.67     0.00       16     0.00     0.00  std::vector<p3Df, std::allocator<p3Df> >::_M_check_len(unsigned int, char const*) const
+  0.00      1.67     0.00       16     0.00     0.00  std::_Vector_base<p3Df, std::allocator<p3Df> >::_M_allocate(unsigned int)
+  0.00      1.67     0.00       16     0.00     0.00  std::vector<p3Df, std::allocator<p3Df> >::_M_insert_aux(__gnu_cxx::__normal_iterator<p3Df*, std::vector<p3Df, std::allocator<p3Df> > >, p3Df const&)
+  0.00      1.67     0.00       16     0.00     0.00  std::vector<p3Df, std::allocator<p3Df> >::end()
+  0.00      1.67     0.00       16     0.00     0.00  std::vector<p3Df, std::allocator<p3Df> >::begin()
+  0.00      1.67     0.00        8     0.00     0.00  eraseTetratree(node*)
+  0.00      1.67     0.00        8     0.00     0.21  generateTetraTree(unsigned int, unsigned int, std::vector<int, std::allocator<int> >, node*, mesh*, p3Df)
+  0.00      1.67     0.00        6     0.00     0.00  __gnu_cxx::new_allocator<p3Df>::new_allocator()
+  0.00      1.67     0.00        6     0.00     0.00  std::allocator<p3Df>::allocator()
+  0.00      1.67     0.00        6     0.00     0.00  std::_Vector_base<p3Df, std::allocator<p3Df> >::_Vector_impl::_Vector_impl()
+  0.00      1.67     0.00        6     0.00     0.00  std::_Vector_base<p3Df, std::allocator<p3Df> >::_Vector_base()
+  0.00      1.67     0.00        6     0.00     0.00  std::vector<p3Df, std::allocator<p3Df> >::vector()
+  0.00      1.67     0.00        3     0.00     0.00  __gnu_cxx::new_allocator<p3Df>::~new_allocator()
+  0.00      1.67     0.00        3     0.00     0.00  std::allocator<p3Df>::~allocator()
+  0.00      1.67     0.00        3     0.00     0.00  std::_Vector_base<p3Df, std::allocator<p3Df> >::_Vector_impl::~_Vector_impl()
+  0.00      1.67     0.00        3     0.00     0.00  std::_Vector_base<p3Df, std::allocator<p3Df> >::~_Vector_base()
+  0.00      1.67     0.00        3     0.00     0.00  std::vector<p3Df, std::allocator<p3Df> >::_M_erase_at_end(p3Df*)
+  0.00      1.67     0.00        3     0.00     0.00  std::vector<p3Df, std::allocator<p3Df> >::clear()
+  0.00      1.67     0.00        3     0.00     0.00  std::vector<p3Df, std::allocator<p3Df> >::~vector()
+  0.00      1.67     0.00        2     0.00     0.00  mesh::mesh()
+  0.00      1.67     0.00        2     0.00     0.00  __gnu_cxx::new_allocator<triangle>::new_allocator()
+  0.00      1.67     0.00        2     0.00     0.00  std::allocator<triangle>::allocator()
+  0.00      1.67     0.00        2     0.00     0.00  std::_Vector_base<triangle, std::allocator<triangle> >::_Vector_impl::_Vector_impl()
+  0.00      1.67     0.00        2     0.00     0.00  std::_Vector_base<triangle, std::allocator<triangle> >::_Vector_base()
+  0.00      1.67     0.00        2     0.00     0.00  std::vector<triangle, std::allocator<triangle> >::vector()
+  0.00      1.67     0.00        1     0.00     0.00  global constructors keyed to contador
+  0.00      1.67     0.00        1     0.00     0.00  global constructors keyed to tiempo1
+  0.00      1.67     0.00        1     0.00     0.00  eraseTetratree(tetratree*)
+  0.00      1.67     0.00        1     0.00     1.66  generateTetraTree(unsigned int, unsigned int, tetratree*, mesh*)
+  0.00      1.67     0.00        1     0.00     0.00  __static_initialization_and_destruction_0(int, int)
+  0.00      1.67     0.00        1     0.00     0.00  __static_initialization_and_destruction_0(int, int)
+  0.00      1.67     0.00        1     0.00     0.00  loadOBJ(mesh*, char*)
+  0.00      1.67     0.00        1     0.00     0.00  mesh::~mesh()
+  0.00      1.67     0.00        1     0.00     0.00  __gnu_cxx::new_allocator<triangle>::~new_allocator()
+  0.00      1.67     0.00        1     0.00     0.00  std::allocator<triangle>::~allocator()
+  0.00      1.67     0.00        1     0.00     0.00  std::_Vector_base<triangle, std::allocator<triangle> >::_Vector_impl::~_Vector_impl()
+  0.00      1.67     0.00        1     0.00     0.00  std::_Vector_base<triangle, std::allocator<triangle> >::~_Vector_base()
+  0.00      1.67     0.00        1     0.00     0.00  std::vector<triangle, std::allocator<triangle> >::_M_erase_at_end(triangle*)
+  0.00      1.67     0.00        1     0.00     0.00  std::vector<triangle, std::allocator<triangle> >::clear()
+  0.00      1.67     0.00        1     0.00     0.00  std::vector<triangle, std::allocator<triangle> >::~vector()
+
+			Call graph
+
+
+granularity: each sample hit covers 4 byte(s) for 0.60% of 1.67 seconds
+
+index % time    self  children    called     name
+                                                 <spontaneous>
+[1]     99.7    0.00    1.66                 main [1]
+                0.00    1.66       1/1           generateTetraTree(unsigned int, unsigned int, tetratree*, mesh*) [2]
+                0.00    0.00       1/1           loadOBJ(mesh*, char*) [12]
+                0.00    0.00   40004/80073       std::vector<triangle, std::allocator<triangle> >::size() const [24]
+                0.00    0.00   40000/3407040     std::vector<triangle, std::allocator<triangle> >::operator[](unsigned int) [20]
+                0.00    0.00       4/20073       std::vector<p3Df, std::allocator<p3Df> >::size() const [30]
+                0.00    0.00       2/2           mesh::mesh() [157]
+                0.00    0.00       1/1           eraseTetratree(tetratree*) [165]
+-----------------------------------------------
+                0.00    1.66       1/1           main [1]
+[2]     99.6    0.00    1.66       1         generateTetraTree(unsigned int, unsigned int, tetratree*, mesh*) [2]
+                0.00    1.66       8/8           generateTetraTree(unsigned int, unsigned int, std::vector<int, std::allocator<int> >, node*, mesh*, p3Df) [3]
+                0.00    0.00   60006/20489125     std::vector<p3Df, std::allocator<p3Df> >::operator[](unsigned int) [9]
+                0.00    0.00   40000/224551      std::vector<int, std::allocator<int> >::push_back(int const&) [13]
+                0.00    0.00       8/584         std::vector<int, std::allocator<int> >::vector(std::vector<int, std::allocator<int> > const&) [16]
+                0.00    0.00   40001/80073       std::vector<triangle, std::allocator<triangle> >::size() const [24]
+                0.00    0.00   20005/20073       std::vector<p3Df, std::allocator<p3Df> >::size() const [30]
+                0.00    0.00       9/1161        std::vector<int, std::allocator<int> >::~vector() [70]
+                0.00    0.00       8/1160        tetracone::tetracone() [71]
+                0.00    0.00       1/1162        std::vector<int, std::allocator<int> >::vector() [69]
+-----------------------------------------------
+                                 576             generateTetraTree(unsigned int, unsigned int, std::vector<int, std::allocator<int> >, node*, mesh*, p3Df) [3]
+                0.00    1.66       8/8           generateTetraTree(unsigned int, unsigned int, tetratree*, mesh*) [2]
+[3]     99.6    0.00    1.66       8+576     generateTetraTree(unsigned int, unsigned int, std::vector<int, std::allocator<int> >, node*, mesh*, p3Df) [3]
+                0.16    1.49  841760/841760      clasifyTriang(tetracone*, int, mesh*, p3Df) [4]
+                0.01    0.00  843096/864140      std::vector<int, std::allocator<int> >::size() const [10]
+                0.00    0.00     576/584         std::vector<int, std::allocator<int> >::vector(std::vector<int, std::allocator<int> > const&) [16]
+                0.00    0.00  841760/841760      std::vector<int, std::allocator<int> >::operator[](unsigned int) [21]
+                0.00    0.00    1152/1160        tetracone::tetracone() [71]
+                0.00    0.00     576/1161        std::vector<int, std::allocator<int> >::~vector() [70]
+                                 576             generateTetraTree(unsigned int, unsigned int, std::vector<int, std::allocator<int> >, node*, mesh*, p3Df) [3]
+-----------------------------------------------
+                0.16    1.49  841760/841760      generateTetraTree(unsigned int, unsigned int, std::vector<int, std::allocator<int> >, node*, mesh*, p3Df) [3]
+[4]     99.0    0.16    1.49  841760         clasifyTriang(tetracone*, int, mesh*, p3Df) [4]
+                0.21    0.66 5916048/5916048     tetraSeg(p3Df, p3Df, p3Df, p3Df, p3Df) [6]
+                0.10    0.22 1974951/1974951     tetraPoint(p3Df, p3Df, p3Df, p3Df, p3Df) [7]
+                0.01    0.24 2192170/2192170     tetraPoint(p3Df, p3Df, p3Df, p3Df, p3Df, int) [8]
+                0.06    0.00 19949119/20489125     std::vector<p3Df, std::allocator<p3Df> >::operator[](unsigned int) [9]
+                0.00    0.00  184551/224551      std::vector<int, std::allocator<int> >::push_back(int const&) [13]
+                0.00    0.00 3367040/3407040     std::vector<triangle, std::allocator<triangle> >::operator[](unsigned int) [20]
+-----------------------------------------------
+                0.22    0.00 1974951/10083169     tetraPoint(p3Df, p3Df, p3Df, p3Df, p3Df) [7]
+                0.24    0.00 2192170/10083169     tetraPoint(p3Df, p3Df, p3Df, p3Df, p3Df, int) [8]
+                0.66    0.00 5916048/10083169     tetraSeg(p3Df, p3Df, p3Df, p3Df, p3Df) [6]
+[5]     67.1    1.12    0.00 10083169         signcoordBary(p3Df, p3Df, p3Df, p3Df, p3Df, int, signcoordB*) [5]
+-----------------------------------------------
+                0.21    0.66 5916048/5916048     clasifyTriang(tetracone*, int, mesh*, p3Df) [4]
+[6]     51.9    0.21    0.66 5916048         tetraSeg(p3Df, p3Df, p3Df, p3Df, p3Df) [6]
+                0.66    0.00 5916048/10083169     signcoordBary(p3Df, p3Df, p3Df, p3Df, p3Df, int, signcoordB*) [5]
+-----------------------------------------------
+                0.10    0.22 1974951/1974951     clasifyTriang(tetracone*, int, mesh*, p3Df) [4]
+[7]     18.8    0.10    0.22 1974951         tetraPoint(p3Df, p3Df, p3Df, p3Df, p3Df) [7]
+                0.22    0.00 1974951/10083169     signcoordBary(p3Df, p3Df, p3Df, p3Df, p3Df, int, signcoordB*) [5]
+                0.00    0.00      16/16          tetraPointLimits(signcoordB*) [135]
+-----------------------------------------------
+                0.01    0.24 2192170/2192170     clasifyTriang(tetracone*, int, mesh*, p3Df) [4]
+[8]     15.2    0.01    0.24 2192170         tetraPoint(p3Df, p3Df, p3Df, p3Df, p3Df, int) [8]
+                0.24    0.00 2192170/10083169     signcoordBary(p3Df, p3Df, p3Df, p3Df, p3Df, int, signcoordB*) [5]
+-----------------------------------------------
+                0.00    0.00   60006/20489125     generateTetraTree(unsigned int, unsigned int, tetratree*, mesh*) [2]
+                0.00    0.00  480000/20489125     loadOBJ(mesh*, char*) [12]
+                0.06    0.00 19949119/20489125     clasifyTriang(tetracone*, int, mesh*, p3Df) [4]
+[9]      3.6    0.06    0.00 20489125         std::vector<p3Df, std::allocator<p3Df> >::operator[](unsigned int) [9]
+-----------------------------------------------
+                0.00    0.00     584/864140      std::vector<int, std::allocator<int> >::vector(std::vector<int, std::allocator<int> > const&) [16]
+                0.00    0.00   20460/864140      std::vector<int, std::allocator<int> >::_M_check_len(unsigned int, char const*) const [14]
+                0.01    0.00  843096/864140      generateTetraTree(unsigned int, unsigned int, std::vector<int, std::allocator<int> >, node*, mesh*, p3Df) [3]
+[10]     0.6    0.01    0.00  864140         std::vector<int, std::allocator<int> >::size() const [10]
+-----------------------------------------------
+                                                 <spontaneous>
+[11]     0.3    0.01    0.00                 testTetraPointLimit(p3Df, p3Df, p3Df, p3Df, p3Df) [11]
+-----------------------------------------------
+                0.00    0.00       1/1           main [1]
+[12]     0.1    0.00    0.00       1         loadOBJ(mesh*, char*) [12]
+                0.00    0.00  480000/20489125     std::vector<p3Df, std::allocator<p3Df> >::operator[](unsigned int) [9]
+                0.00    0.00   40000/40000       std::vector<triangle, std::allocator<triangle> >::push_back(triangle const&) [26]
+                0.00    0.00   20002/20002       std::vector<p3Df, std::allocator<p3Df> >::push_back(p3Df const&) [32]
+-----------------------------------------------
+                0.00    0.00   40000/224551      generateTetraTree(unsigned int, unsigned int, tetratree*, mesh*) [2]
+                0.00    0.00  184551/224551      clasifyTriang(tetracone*, int, mesh*, p3Df) [4]
+[13]     0.0    0.00    0.00  224551         std::vector<int, std::allocator<int> >::push_back(int const&) [13]
+                0.00    0.00    5115/5115        std::vector<int, std::allocator<int> >::_M_insert_aux(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int const&) [15]
+                0.00    0.00  219436/224551      __gnu_cxx::new_allocator<int>::construct(int*, int const&) [23]
+                0.00    0.00    5115/5115        std::vector<int, std::allocator<int> >::end() [55]
+-----------------------------------------------
+                0.00    0.00    5115/5115        std::vector<int, std::allocator<int> >::_M_insert_aux(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int const&) [15]
+[14]     0.0    0.00    0.00    5115         std::vector<int, std::allocator<int> >::_M_check_len(unsigned int, char const*) const [14]
+                0.00    0.00   20460/864140      std::vector<int, std::allocator<int> >::size() const [10]
+                0.00    0.00   10230/10230       std::vector<int, std::allocator<int> >::max_size() const [38]
+                0.00    0.00    5115/5148        unsigned int const& std::max<unsigned int>(unsigned int const&, unsigned int const&) [53]
+-----------------------------------------------
+                0.00    0.00    5115/5115        std::vector<int, std::allocator<int> >::push_back(int const&) [13]
+[15]     0.0    0.00    0.00    5115         std::vector<int, std::allocator<int> >::_M_insert_aux(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int const&) [15]
+                0.00    0.00    5115/5115        std::vector<int, std::allocator<int> >::_M_check_len(unsigned int, char const*) const [14]
+                0.00    0.00   15345/17675       std::_Vector_base<int, std::allocator<int> >::_M_get_Tp_allocator() [33]
+                0.00    0.00   10230/20460       __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >::base() const [28]
+                0.00    0.00   10230/10230       int* std::__uninitialized_move_a<int*, int*, std::allocator<int> >(int*, int*, int*, std::allocator<int>&) [44]
+                0.00    0.00    5115/5115        std::vector<int, std::allocator<int> >::begin() [56]
+                0.00    0.00    5115/5115        __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >::difference_type __gnu_cxx::operator-<int*, std::vector<int, std::allocator<int> > >(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > > const&, __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > > const&) [54]
+                0.00    0.00    5115/5699        std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned int) [51]
+                0.00    0.00    5115/224551      __gnu_cxx::new_allocator<int>::construct(int*, int const&) [23]
+                0.00    0.00    5115/6861        void std::_Destroy<int*, int>(int*, int*, std::allocator<int>&) [48]
+                0.00    0.00    5115/6277        std::_Vector_base<int, std::allocator<int> >::_M_deallocate(int*, unsigned int) [49]
+-----------------------------------------------
+                0.00    0.00       8/584         generateTetraTree(unsigned int, unsigned int, tetratree*, mesh*) [2]
+                0.00    0.00     576/584         generateTetraTree(unsigned int, unsigned int, std::vector<int, std::allocator<int> >, node*, mesh*, p3Df) [3]
+[16]     0.0    0.00    0.00     584         std::vector<int, std::allocator<int> >::vector(std::vector<int, std::allocator<int> > const&) [16]
+                0.00    0.00     584/864140      std::vector<int, std::allocator<int> >::size() const [10]
+                0.00    0.00     584/10814       std::_Vector_base<int, std::allocator<int> >::_M_get_Tp_allocator() const [35]
+                0.00    0.00     584/584         std::_Vector_base<int, std::allocator<int> >::_Vector_base(unsigned int, std::allocator<int> const&) [77]
+                0.00    0.00     584/17675       std::_Vector_base<int, std::allocator<int> >::_M_get_Tp_allocator() [33]
+                0.00    0.00     584/584         std::vector<int, std::allocator<int> >::end() const [73]
+                0.00    0.00     584/584         std::vector<int, std::allocator<int> >::begin() const [74]
+                0.00    0.00     584/584         int* std::__uninitialized_copy_a<__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, int*, int>(__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, int*, std::allocator<int>&) [84]
+-----------------------------------------------
+                0.00    0.00   40000/3407040     main [1]
+                0.00    0.00 3367040/3407040     clasifyTriang(tetracone*, int, mesh*, p3Df) [4]
+[20]     0.0    0.00    0.00 3407040         std::vector<triangle, std::allocator<triangle> >::operator[](unsigned int) [20]
+-----------------------------------------------
+                0.00    0.00  841760/841760      generateTetraTree(unsigned int, unsigned int, std::vector<int, std::allocator<int> >, node*, mesh*, p3Df) [3]
+[21]     0.0    0.00    0.00  841760         std::vector<int, std::allocator<int> >::operator[](unsigned int) [21]
+-----------------------------------------------
+                0.00    0.00   20002/284553      __gnu_cxx::new_allocator<p3Df>::construct(p3Df*, p3Df const&) [31]
+                0.00    0.00   40000/284553      __gnu_cxx::new_allocator<triangle>::construct(triangle*, triangle const&) [25]
+                0.00    0.00  224551/284553      __gnu_cxx::new_allocator<int>::construct(int*, int const&) [23]
+[22]     0.0    0.00    0.00  284553         operator new(unsigned int, void*) [22]
+-----------------------------------------------
+                0.00    0.00    5115/224551      std::vector<int, std::allocator<int> >::_M_insert_aux(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int const&) [15]
+                0.00    0.00  219436/224551      std::vector<int, std::allocator<int> >::push_back(int const&) [13]
+[23]     0.0    0.00    0.00  224551         __gnu_cxx::new_allocator<int>::construct(int*, int const&) [23]
+                0.00    0.00  224551/284553      operator new(unsigned int, void*) [22]
+-----------------------------------------------
+                0.00    0.00      68/80073       std::vector<triangle, std::allocator<triangle> >::_M_check_len(unsigned int, char const*) const [130]
+                0.00    0.00   40001/80073       generateTetraTree(unsigned int, unsigned int, tetratree*, mesh*) [2]
+                0.00    0.00   40004/80073       main [1]
+[24]     0.0    0.00    0.00   80073         std::vector<triangle, std::allocator<triangle> >::size() const [24]
+-----------------------------------------------
+                0.00    0.00      17/40000       std::vector<triangle, std::allocator<triangle> >::_M_insert_aux(__gnu_cxx::__normal_iterator<triangle*, std::vector<triangle, std::allocator<triangle> > >, triangle const&) [132]
+                0.00    0.00   39983/40000       std::vector<triangle, std::allocator<triangle> >::push_back(triangle const&) [26]
+[25]     0.0    0.00    0.00   40000         __gnu_cxx::new_allocator<triangle>::construct(triangle*, triangle const&) [25]
+                0.00    0.00   40000/284553      operator new(unsigned int, void*) [22]
+-----------------------------------------------
+                0.00    0.00   40000/40000       loadOBJ(mesh*, char*) [12]
+[26]     0.0    0.00    0.00   40000         std::vector<triangle, std::allocator<triangle> >::push_back(triangle const&) [26]
+                0.00    0.00   39983/40000       __gnu_cxx::new_allocator<triangle>::construct(triangle*, triangle const&) [25]
+                0.00    0.00      17/17          std::vector<triangle, std::allocator<triangle> >::end() [133]
+                0.00    0.00      17/17          std::vector<triangle, std::allocator<triangle> >::_M_insert_aux(__gnu_cxx::__normal_iterator<triangle*, std::vector<triangle, std::allocator<triangle> > >, triangle const&) [132]
+-----------------------------------------------
+                0.00    0.00     584/31274       int* std::__copy_move_a2<false, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, int*>(__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, int*) [82]
+                0.00    0.00   30690/31274       int* std::__copy_move_a2<false, int*, int*>(int*, int*, int*) [41]
+[27]     0.0    0.00    0.00   31274         std::__niter_base<int*, false>::__b(int*) [27]
+-----------------------------------------------
+                0.00    0.00   10230/20460       std::vector<int, std::allocator<int> >::_M_insert_aux(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int const&) [15]
+                0.00    0.00   10230/20460       __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >::difference_type __gnu_cxx::operator-<int*, std::vector<int, std::allocator<int> > >(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > > const&, __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > > const&) [54]
+[28]     0.0    0.00    0.00   20460         __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >::base() const [28]
+-----------------------------------------------
+                0.00    0.00   20460/20460       int* std::copy<int*, int*>(int*, int*, int*) [45]
+[29]     0.0    0.00    0.00   20460         std::__miter_base<int*, false>::__b(int*) [29]
+-----------------------------------------------
+                0.00    0.00       4/20073       main [1]
+                0.00    0.00      64/20073       std::vector<p3Df, std::allocator<p3Df> >::_M_check_len(unsigned int, char const*) const [139]
+                0.00    0.00   20005/20073       generateTetraTree(unsigned int, unsigned int, tetratree*, mesh*) [2]
+[30]     0.0    0.00    0.00   20073         std::vector<p3Df, std::allocator<p3Df> >::size() const [30]
+-----------------------------------------------
+                0.00    0.00      16/20002       std::vector<p3Df, std::allocator<p3Df> >::_M_insert_aux(__gnu_cxx::__normal_iterator<p3Df*, std::vector<p3Df, std::allocator<p3Df> > >, p3Df const&) [141]
+                0.00    0.00   19986/20002       std::vector<p3Df, std::allocator<p3Df> >::push_back(p3Df const&) [32]
+[31]     0.0    0.00    0.00   20002         __gnu_cxx::new_allocator<p3Df>::construct(p3Df*, p3Df const&) [31]
+                0.00    0.00   20002/284553      operator new(unsigned int, void*) [22]
+-----------------------------------------------
+                0.00    0.00   20002/20002       loadOBJ(mesh*, char*) [12]
+[32]     0.0    0.00    0.00   20002         std::vector<p3Df, std::allocator<p3Df> >::push_back(p3Df const&) [32]
+                0.00    0.00   19986/20002       __gnu_cxx::new_allocator<p3Df>::construct(p3Df*, p3Df const&) [31]
+                0.00    0.00      16/16          std::vector<p3Df, std::allocator<p3Df> >::end() [142]
+                0.00    0.00      16/16          std::vector<p3Df, std::allocator<p3Df> >::_M_insert_aux(__gnu_cxx::__normal_iterator<p3Df*, std::vector<p3Df, std::allocator<p3Df> > >, p3Df const&) [141]
+-----------------------------------------------
+                0.00    0.00     584/17675       std::vector<int, std::allocator<int> >::vector(std::vector<int, std::allocator<int> > const&) [16]
+                0.00    0.00     584/17675       std::vector<int, std::allocator<int> >::_M_erase_at_end(int*) [79]
+                0.00    0.00    1162/17675       std::vector<int, std::allocator<int> >::~vector() [70]
+                0.00    0.00   15345/17675       std::vector<int, std::allocator<int> >::_M_insert_aux(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int const&) [15]
+[33]     0.0    0.00    0.00   17675         std::_Vector_base<int, std::allocator<int> >::_M_get_Tp_allocator() [33]
+-----------------------------------------------
+                0.00    0.00    5699/15929       __gnu_cxx::new_allocator<int>::allocate(unsigned int, void const*) [50]
+                0.00    0.00   10230/15929       std::vector<int, std::allocator<int> >::max_size() const [38]
+[34]     0.0    0.00    0.00   15929         __gnu_cxx::new_allocator<int>::max_size() const [34]
+-----------------------------------------------
+                0.00    0.00     584/10814       std::vector<int, std::allocator<int> >::vector(std::vector<int, std::allocator<int> > const&) [16]
+                0.00    0.00   10230/10814       std::vector<int, std::allocator<int> >::max_size() const [38]
+[35]     0.0    0.00    0.00   10814         std::_Vector_base<int, std::allocator<int> >::_M_get_Tp_allocator() const [35]
+-----------------------------------------------
+                0.00    0.00     584/10814       int* std::__copy_move_a<false, int const*, int*>(int const*, int const*, int*) [81]
+                0.00    0.00   10230/10814       int* std::__copy_move_a<false, int*, int*>(int*, int*, int*) [40]
+[36]     0.0    0.00    0.00   10814         int* std::__copy_move<false, true, std::random_access_iterator_tag>::__copy_m<int>(int const*, int const*, int*) [36]
+-----------------------------------------------
+                0.00    0.00    5115/10230       std::vector<int, std::allocator<int> >::end() [55]
+                0.00    0.00    5115/10230       std::vector<int, std::allocator<int> >::begin() [56]
+[37]     0.0    0.00    0.00   10230         __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >::__normal_iterator(int* const&) [37]
+-----------------------------------------------
+                0.00    0.00   10230/10230       std::vector<int, std::allocator<int> >::_M_check_len(unsigned int, char const*) const [14]
+[38]     0.0    0.00    0.00   10230         std::vector<int, std::allocator<int> >::max_size() const [38]
+                0.00    0.00   10230/10814       std::_Vector_base<int, std::allocator<int> >::_M_get_Tp_allocator() const [35]
+                0.00    0.00   10230/15929       __gnu_cxx::new_allocator<int>::max_size() const [34]
+-----------------------------------------------
+                0.00    0.00   10230/10230       int* std::uninitialized_copy<int*, int*>(int*, int*, int*) [42]
+[39]     0.0    0.00    0.00   10230         int* std::__uninitialized_copy<true>::uninitialized_copy<int*, int*>(int*, int*, int*) [39]
+                0.00    0.00   10230/10230       int* std::copy<int*, int*>(int*, int*, int*) [45]
+-----------------------------------------------
+                0.00    0.00   10230/10230       int* std::__copy_move_a2<false, int*, int*>(int*, int*, int*) [41]
+[40]     0.0    0.00    0.00   10230         int* std::__copy_move_a<false, int*, int*>(int*, int*, int*) [40]
+                0.00    0.00   10230/10814       int* std::__copy_move<false, true, std::random_access_iterator_tag>::__copy_m<int>(int const*, int const*, int*) [36]
+-----------------------------------------------
+                0.00    0.00   10230/10230       int* std::copy<int*, int*>(int*, int*, int*) [45]
+[41]     0.0    0.00    0.00   10230         int* std::__copy_move_a2<false, int*, int*>(int*, int*, int*) [41]
+                0.00    0.00   30690/31274       std::__niter_base<int*, false>::__b(int*) [27]
+                0.00    0.00   10230/10230       int* std::__copy_move_a<false, int*, int*>(int*, int*, int*) [40]
+-----------------------------------------------
+                0.00    0.00   10230/10230       int* std::__uninitialized_copy_a<int*, int*, int>(int*, int*, int*, std::allocator<int>&) [43]
+[42]     0.0    0.00    0.00   10230         int* std::uninitialized_copy<int*, int*>(int*, int*, int*) [42]
+                0.00    0.00   10230/10230       int* std::__uninitialized_copy<true>::uninitialized_copy<int*, int*>(int*, int*, int*) [39]
+-----------------------------------------------
+                0.00    0.00   10230/10230       int* std::__uninitialized_move_a<int*, int*, std::allocator<int> >(int*, int*, int*, std::allocator<int>&) [44]
+[43]     0.0    0.00    0.00   10230         int* std::__uninitialized_copy_a<int*, int*, int>(int*, int*, int*, std::allocator<int>&) [43]
+                0.00    0.00   10230/10230       int* std::uninitialized_copy<int*, int*>(int*, int*, int*) [42]
+-----------------------------------------------
+                0.00    0.00   10230/10230       std::vector<int, std::allocator<int> >::_M_insert_aux(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int const&) [15]
+[44]     0.0    0.00    0.00   10230         int* std::__uninitialized_move_a<int*, int*, std::allocator<int> >(int*, int*, int*, std::allocator<int>&) [44]
+                0.00    0.00   10230/10230       int* std::__uninitialized_copy_a<int*, int*, int>(int*, int*, int*, std::allocator<int>&) [43]
+-----------------------------------------------
+                0.00    0.00   10230/10230       int* std::__uninitialized_copy<true>::uninitialized_copy<int*, int*>(int*, int*, int*) [39]
+[45]     0.0    0.00    0.00   10230         int* std::copy<int*, int*>(int*, int*, int*) [45]
+                0.00    0.00   20460/20460       std::__miter_base<int*, false>::__b(int*) [29]
+                0.00    0.00   10230/10230       int* std::__copy_move_a2<false, int*, int*>(int*, int*, int*) [41]
+-----------------------------------------------
+                0.00    0.00    6861/6861        void std::_Destroy<int*>(int*, int*) [47]
+[46]     0.0    0.00    0.00    6861         void std::_Destroy_aux<true>::__destroy<int*>(int*, int*) [46]
+-----------------------------------------------
+                0.00    0.00    6861/6861        void std::_Destroy<int*, int>(int*, int*, std::allocator<int>&) [48]
+[47]     0.0    0.00    0.00    6861         void std::_Destroy<int*>(int*, int*) [47]
+                0.00    0.00    6861/6861        void std::_Destroy_aux<true>::__destroy<int*>(int*, int*) [46]
+-----------------------------------------------
+                0.00    0.00     584/6861        std::vector<int, std::allocator<int> >::_M_erase_at_end(int*) [79]
+                0.00    0.00    1162/6861        std::vector<int, std::allocator<int> >::~vector() [70]
+                0.00    0.00    5115/6861        std::vector<int, std::allocator<int> >::_M_insert_aux(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int const&) [15]
+[48]     0.0    0.00    0.00    6861         void std::_Destroy<int*, int>(int*, int*, std::allocator<int>&) [48]
+                0.00    0.00    6861/6861        void std::_Destroy<int*>(int*, int*) [47]
+-----------------------------------------------
+                0.00    0.00    1162/6277        std::_Vector_base<int, std::allocator<int> >::~_Vector_base() [68]
+                0.00    0.00    5115/6277        std::vector<int, std::allocator<int> >::_M_insert_aux(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int const&) [15]
+[49]     0.0    0.00    0.00    6277         std::_Vector_base<int, std::allocator<int> >::_M_deallocate(int*, unsigned int) [49]
+                0.00    0.00    5691/5691        __gnu_cxx::new_allocator<int>::deallocate(int*, unsigned int) [52]
+-----------------------------------------------
+                0.00    0.00    5699/5699        std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned int) [51]
+[50]     0.0    0.00    0.00    5699         __gnu_cxx::new_allocator<int>::allocate(unsigned int, void const*) [50]
+                0.00    0.00    5699/15929       __gnu_cxx::new_allocator<int>::max_size() const [34]
+-----------------------------------------------
+                0.00    0.00     584/5699        std::_Vector_base<int, std::allocator<int> >::_Vector_base(unsigned int, std::allocator<int> const&) [77]
+                0.00    0.00    5115/5699        std::vector<int, std::allocator<int> >::_M_insert_aux(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int const&) [15]
+[51]     0.0    0.00    0.00    5699         std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned int) [51]
+                0.00    0.00    5699/5699        __gnu_cxx::new_allocator<int>::allocate(unsigned int, void const*) [50]
+-----------------------------------------------
+                0.00    0.00    5691/5691        std::_Vector_base<int, std::allocator<int> >::_M_deallocate(int*, unsigned int) [49]
+[52]     0.0    0.00    0.00    5691         __gnu_cxx::new_allocator<int>::deallocate(int*, unsigned int) [52]
+-----------------------------------------------
+                0.00    0.00      16/5148        std::vector<p3Df, std::allocator<p3Df> >::_M_check_len(unsigned int, char const*) const [139]
+                0.00    0.00      17/5148        std::vector<triangle, std::allocator<triangle> >::_M_check_len(unsigned int, char const*) const [130]
+                0.00    0.00    5115/5148        std::vector<int, std::allocator<int> >::_M_check_len(unsigned int, char const*) const [14]
+[53]     0.0    0.00    0.00    5148         unsigned int const& std::max<unsigned int>(unsigned int const&, unsigned int const&) [53]
+-----------------------------------------------
+                0.00    0.00    5115/5115        std::vector<int, std::allocator<int> >::_M_insert_aux(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int const&) [15]
+[54]     0.0    0.00    0.00    5115         __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >::difference_type __gnu_cxx::operator-<int*, std::vector<int, std::allocator<int> > >(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > > const&, __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > > const&) [54]
+                0.00    0.00   10230/20460       __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >::base() const [28]
+-----------------------------------------------
+                0.00    0.00    5115/5115        std::vector<int, std::allocator<int> >::push_back(int const&) [13]
+[55]     0.0    0.00    0.00    5115         std::vector<int, std::allocator<int> >::end() [55]
+                0.00    0.00    5115/10230       __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >::__normal_iterator(int* const&) [37]
+-----------------------------------------------
+                0.00    0.00    5115/5115        std::vector<int, std::allocator<int> >::_M_insert_aux(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int const&) [15]
+[56]     0.0    0.00    0.00    5115         std::vector<int, std::allocator<int> >::begin() [56]
+                0.00    0.00    5115/10230       __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >::__normal_iterator(int* const&) [37]
+-----------------------------------------------
+                0.00    0.00     584/1168        std::vector<int, std::allocator<int> >::begin() const [74]
+                0.00    0.00     584/1168        std::vector<int, std::allocator<int> >::end() const [73]
+[57]     0.0    0.00    0.00    1168         __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >::__normal_iterator(int const* const&) [57]
+-----------------------------------------------
+                0.00    0.00    1168/1168        std::__niter_base<__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, true>::__b(__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >) [60]
+[58]     0.0    0.00    0.00    1168         __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >::base() const [58]
+-----------------------------------------------
+                0.00    0.00    1168/1168        int* std::copy<__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, int*>(__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, int*) [85]
+[59]     0.0    0.00    0.00    1168         std::__miter_base<__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, false>::__b(__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >) [59]
+-----------------------------------------------
+                0.00    0.00    1168/1168        int* std::__copy_move_a2<false, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, int*>(__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, int*) [82]
+[60]     0.0    0.00    0.00    1168         std::__niter_base<__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, true>::__b(__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >) [60]
+                0.00    0.00    1168/1168        __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >::base() const [58]
+-----------------------------------------------
+                0.00    0.00    1162/1162        std::allocator<int>::allocator() [63]
+[61]     0.0    0.00    0.00    1162         __gnu_cxx::new_allocator<int>::new_allocator() [61]
+-----------------------------------------------
+                0.00    0.00    1162/1162        std::allocator<int>::~allocator() [64]
+[62]     0.0    0.00    0.00    1162         __gnu_cxx::new_allocator<int>::~new_allocator() [62]
+-----------------------------------------------
+                0.00    0.00    1162/1162        std::_Vector_base<int, std::allocator<int> >::_Vector_impl::_Vector_impl() [65]
+[63]     0.0    0.00    0.00    1162         std::allocator<int>::allocator() [63]
+                0.00    0.00    1162/1162        __gnu_cxx::new_allocator<int>::new_allocator() [61]
+-----------------------------------------------
+                0.00    0.00    1162/1162        std::_Vector_base<int, std::allocator<int> >::_Vector_impl::~_Vector_impl() [66]
+[64]     0.0    0.00    0.00    1162         std::allocator<int>::~allocator() [64]
+                0.00    0.00    1162/1162        __gnu_cxx::new_allocator<int>::~new_allocator() [62]
+-----------------------------------------------
+                0.00    0.00    1162/1162        std::_Vector_base<int, std::allocator<int> >::_Vector_base() [67]
+[65]     0.0    0.00    0.00    1162         std::_Vector_base<int, std::allocator<int> >::_Vector_impl::_Vector_impl() [65]
+                0.00    0.00    1162/1162        std::allocator<int>::allocator() [63]
+-----------------------------------------------
+                0.00    0.00    1162/1162        std::_Vector_base<int, std::allocator<int> >::~_Vector_base() [68]
+[66]     0.0    0.00    0.00    1162         std::_Vector_base<int, std::allocator<int> >::_Vector_impl::~_Vector_impl() [66]
+                0.00    0.00    1162/1162        std::allocator<int>::~allocator() [64]
+-----------------------------------------------
+                0.00    0.00    1162/1162        std::vector<int, std::allocator<int> >::vector() [69]
+[67]     0.0    0.00    0.00    1162         std::_Vector_base<int, std::allocator<int> >::_Vector_base() [67]
+                0.00    0.00    1162/1162        std::_Vector_base<int, std::allocator<int> >::_Vector_impl::_Vector_impl() [65]
+-----------------------------------------------
+                0.00    0.00    1162/1162        std::vector<int, std::allocator<int> >::~vector() [70]
+[68]     0.0    0.00    0.00    1162         std::_Vector_base<int, std::allocator<int> >::~_Vector_base() [68]
+                0.00    0.00    1162/6277        std::_Vector_base<int, std::allocator<int> >::_M_deallocate(int*, unsigned int) [49]
+                0.00    0.00    1162/1162        std::_Vector_base<int, std::allocator<int> >::_Vector_impl::~_Vector_impl() [66]
+-----------------------------------------------
+                0.00    0.00       1/1162        generateTetraTree(unsigned int, unsigned int, tetratree*, mesh*) [2]
+                0.00    0.00       1/1162        __static_initialization_and_destruction_0(int, int) [167]
+                0.00    0.00    1160/1162        tetracone::tetracone() [71]
+[69]     0.0    0.00    0.00    1162         std::vector<int, std::allocator<int> >::vector() [69]
+                0.00    0.00    1162/1162        std::_Vector_base<int, std::allocator<int> >::_Vector_base() [67]
+-----------------------------------------------
+                0.00    0.00       9/1161        generateTetraTree(unsigned int, unsigned int, tetratree*, mesh*) [2]
+                0.00    0.00     576/1161        generateTetraTree(unsigned int, unsigned int, std::vector<int, std::allocator<int> >, node*, mesh*, p3Df) [3]
+                0.00    0.00     576/1161        tetracone::~tetracone() [86]
+[70]     0.0    0.00    0.00    1161         std::vector<int, std::allocator<int> >::~vector() [70]
+                0.00    0.00    1162/17675       std::_Vector_base<int, std::allocator<int> >::_M_get_Tp_allocator() [33]
+                0.00    0.00    1162/6861        void std::_Destroy<int*, int>(int*, int*, std::allocator<int>&) [48]
+                0.00    0.00    1162/1162        std::_Vector_base<int, std::allocator<int> >::~_Vector_base() [68]
+-----------------------------------------------
+                0.00    0.00       8/1160        generateTetraTree(unsigned int, unsigned int, tetratree*, mesh*) [2]
+                0.00    0.00    1152/1160        generateTetraTree(unsigned int, unsigned int, std::vector<int, std::allocator<int> >, node*, mesh*, p3Df) [3]
+[71]     0.0    0.00    0.00    1160         tetracone::tetracone() [71]
+                0.00    0.00    1160/1162        std::vector<int, std::allocator<int> >::vector() [69]
+-----------------------------------------------
+                0.00    0.00     584/584         std::allocator<int>::allocator(std::allocator<int> const&) [75]
+[72]     0.0    0.00    0.00     584         __gnu_cxx::new_allocator<int>::new_allocator(__gnu_cxx::new_allocator<int> const&) [72]
+-----------------------------------------------
+                0.00    0.00     584/584         std::vector<int, std::allocator<int> >::vector(std::vector<int, std::allocator<int> > const&) [16]
+[73]     0.0    0.00    0.00     584         std::vector<int, std::allocator<int> >::end() const [73]
+                0.00    0.00     584/1168        __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >::__normal_iterator(int const* const&) [57]
+-----------------------------------------------
+                0.00    0.00     584/584         std::vector<int, std::allocator<int> >::vector(std::vector<int, std::allocator<int> > const&) [16]
+[74]     0.0    0.00    0.00     584         std::vector<int, std::allocator<int> >::begin() const [74]
+                0.00    0.00     584/1168        __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >::__normal_iterator(int const* const&) [57]
+-----------------------------------------------
+                0.00    0.00     584/584         std::_Vector_base<int, std::allocator<int> >::_Vector_impl::_Vector_impl(std::allocator<int> const&) [76]
+[75]     0.0    0.00    0.00     584         std::allocator<int>::allocator(std::allocator<int> const&) [75]
+                0.00    0.00     584/584         __gnu_cxx::new_allocator<int>::new_allocator(__gnu_cxx::new_allocator<int> const&) [72]
+-----------------------------------------------
+                0.00    0.00     584/584         std::_Vector_base<int, std::allocator<int> >::_Vector_base(unsigned int, std::allocator<int> const&) [77]
+[76]     0.0    0.00    0.00     584         std::_Vector_base<int, std::allocator<int> >::_Vector_impl::_Vector_impl(std::allocator<int> const&) [76]
+                0.00    0.00     584/584         std::allocator<int>::allocator(std::allocator<int> const&) [75]
+-----------------------------------------------
+                0.00    0.00     584/584         std::vector<int, std::allocator<int> >::vector(std::vector<int, std::allocator<int> > const&) [16]
+[77]     0.0    0.00    0.00     584         std::_Vector_base<int, std::allocator<int> >::_Vector_base(unsigned int, std::allocator<int> const&) [77]
+                0.00    0.00     584/584         std::_Vector_base<int, std::allocator<int> >::_Vector_impl::_Vector_impl(std::allocator<int> const&) [76]
+                0.00    0.00     584/5699        std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned int) [51]
+-----------------------------------------------
+                0.00    0.00     584/584         int* std::uninitialized_copy<__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, int*>(__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, int*) [83]
+[78]     0.0    0.00    0.00     584         int* std::__uninitialized_copy<true>::uninitialized_copy<__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, int*>(__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, int*) [78]
+                0.00    0.00     584/584         int* std::copy<__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, int*>(__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, int*) [85]
+-----------------------------------------------
+                0.00    0.00     584/584         std::vector<int, std::allocator<int> >::clear() [80]
+[79]     0.0    0.00    0.00     584         std::vector<int, std::allocator<int> >::_M_erase_at_end(int*) [79]
+                0.00    0.00     584/17675       std::_Vector_base<int, std::allocator<int> >::_M_get_Tp_allocator() [33]
+                0.00    0.00     584/6861        void std::_Destroy<int*, int>(int*, int*, std::allocator<int>&) [48]
+-----------------------------------------------
+                0.00    0.00     584/584         eraseTetratree(node*) [144]
+[80]     0.0    0.00    0.00     584         std::vector<int, std::allocator<int> >::clear() [80]
+                0.00    0.00     584/584         std::vector<int, std::allocator<int> >::_M_erase_at_end(int*) [79]
+-----------------------------------------------
+                0.00    0.00     584/584         int* std::__copy_move_a2<false, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, int*>(__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, int*) [82]
+[81]     0.0    0.00    0.00     584         int* std::__copy_move_a<false, int const*, int*>(int const*, int const*, int*) [81]
+                0.00    0.00     584/10814       int* std::__copy_move<false, true, std::random_access_iterator_tag>::__copy_m<int>(int const*, int const*, int*) [36]
+-----------------------------------------------
+                0.00    0.00     584/584         int* std::copy<__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, int*>(__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, int*) [85]
+[82]     0.0    0.00    0.00     584         int* std::__copy_move_a2<false, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, int*>(__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, int*) [82]
+                0.00    0.00    1168/1168        std::__niter_base<__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, true>::__b(__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >) [60]
+                0.00    0.00     584/31274       std::__niter_base<int*, false>::__b(int*) [27]
+                0.00    0.00     584/584         int* std::__copy_move_a<false, int const*, int*>(int const*, int const*, int*) [81]
+-----------------------------------------------
+                0.00    0.00     584/584         int* std::__uninitialized_copy_a<__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, int*, int>(__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, int*, std::allocator<int>&) [84]
+[83]     0.0    0.00    0.00     584         int* std::uninitialized_copy<__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, int*>(__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, int*) [83]
+                0.00    0.00     584/584         int* std::__uninitialized_copy<true>::uninitialized_copy<__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, int*>(__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, int*) [78]
+-----------------------------------------------
+                0.00    0.00     584/584         std::vector<int, std::allocator<int> >::vector(std::vector<int, std::allocator<int> > const&) [16]
+[84]     0.0    0.00    0.00     584         int* std::__uninitialized_copy_a<__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, int*, int>(__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, int*, std::allocator<int>&) [84]
+                0.00    0.00     584/584         int* std::uninitialized_copy<__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, int*>(__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, int*) [83]
+-----------------------------------------------
+                0.00    0.00     584/584         int* std::__uninitialized_copy<true>::uninitialized_copy<__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, int*>(__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, int*) [78]
+[85]     0.0    0.00    0.00     584         int* std::copy<__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, int*>(__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, int*) [85]
+                0.00    0.00    1168/1168        std::__miter_base<__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, false>::__b(__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >) [59]
+                0.00    0.00     584/584         int* std::__copy_move_a2<false, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, int*>(__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, int*) [82]
+-----------------------------------------------
+                0.00    0.00     576/576         eraseTetratree(node*) [144]
+[86]     0.0    0.00    0.00     576         tetracone::~tetracone() [86]
+                0.00    0.00     576/1161        std::vector<int, std::allocator<int> >::~vector() [70]
+-----------------------------------------------
+                0.00    0.00     102/102         triangle* std::__copy_move_a2<false, triangle*, triangle*>(triangle*, triangle*, triangle*) [103]
+[87]     0.0    0.00    0.00     102         std::__niter_base<triangle*, false>::__b(triangle*) [87]
+-----------------------------------------------
+                0.00    0.00      96/96          p3Df* std::__copy_move_a2<false, p3Df*, p3Df*>(p3Df*, p3Df*, p3Df*) [114]
+[88]     0.0    0.00    0.00      96         std::__niter_base<p3Df*, false>::__b(p3Df*) [88]
+-----------------------------------------------
+                0.00    0.00      34/68          std::vector<triangle, std::allocator<triangle> >::_M_insert_aux(__gnu_cxx::__normal_iterator<triangle*, std::vector<triangle, std::allocator<triangle> > >, triangle const&) [132]
+                0.00    0.00      34/68          __gnu_cxx::__normal_iterator<triangle*, std::vector<triangle, std::allocator<triangle> > >::difference_type __gnu_cxx::operator-<triangle*, std::vector<triangle, std::allocator<triangle> > >(__gnu_cxx::__normal_iterator<triangle*, std::vector<triangle, std::allocator<triangle> > > const&, __gnu_cxx::__normal_iterator<triangle*, std::vector<triangle, std::allocator<triangle> > > const&) [129]
+[89]     0.0    0.00    0.00      68         __gnu_cxx::__normal_iterator<triangle*, std::vector<triangle, std::allocator<triangle> > >::base() const [89]
+-----------------------------------------------
+                0.00    0.00      68/68          triangle* std::copy<triangle*, triangle*>(triangle*, triangle*, triangle*) [107]
+[90]     0.0    0.00    0.00      68         std::__miter_base<triangle*, false>::__b(triangle*) [90]
+-----------------------------------------------
+                0.00    0.00      32/64          std::vector<p3Df, std::allocator<p3Df> >::_M_insert_aux(__gnu_cxx::__normal_iterator<p3Df*, std::vector<p3Df, std::allocator<p3Df> > >, p3Df const&) [141]
+                0.00    0.00      32/64          __gnu_cxx::__normal_iterator<p3Df*, std::vector<p3Df, std::allocator<p3Df> > >::difference_type __gnu_cxx::operator-<p3Df*, std::vector<p3Df, std::allocator<p3Df> > >(__gnu_cxx::__normal_iterator<p3Df*, std::vector<p3Df, std::allocator<p3Df> > > const&, __gnu_cxx::__normal_iterator<p3Df*, std::vector<p3Df, std::allocator<p3Df> > > const&) [138]
+[91]     0.0    0.00    0.00      64         __gnu_cxx::__normal_iterator<p3Df*, std::vector<p3Df, std::allocator<p3Df> > >::base() const [91]
+-----------------------------------------------
+                0.00    0.00      64/64          p3Df* std::copy<p3Df*, p3Df*>(p3Df*, p3Df*, p3Df*) [118]
+[92]     0.0    0.00    0.00      64         std::__miter_base<p3Df*, false>::__b(p3Df*) [92]
+-----------------------------------------------
+                0.00    0.00       3/54          std::vector<p3Df, std::allocator<p3Df> >::~vector() [156]
+                0.00    0.00       3/54          std::vector<p3Df, std::allocator<p3Df> >::_M_erase_at_end(p3Df*) [154]
+                0.00    0.00      48/54          std::vector<p3Df, std::allocator<p3Df> >::_M_insert_aux(__gnu_cxx::__normal_iterator<p3Df*, std::vector<p3Df, std::allocator<p3Df> > >, p3Df const&) [141]
+[93]     0.0    0.00    0.00      54         std::_Vector_base<p3Df, std::allocator<p3Df> >::_M_get_Tp_allocator() [93]
+-----------------------------------------------
+                0.00    0.00       1/53          std::vector<triangle, std::allocator<triangle> >::~vector() [175]
+                0.00    0.00       1/53          std::vector<triangle, std::allocator<triangle> >::_M_erase_at_end(triangle*) [173]
+                0.00    0.00      51/53          std::vector<triangle, std::allocator<triangle> >::_M_insert_aux(__gnu_cxx::__normal_iterator<triangle*, std::vector<triangle, std::allocator<triangle> > >, triangle const&) [132]
+[94]     0.0    0.00    0.00      53         std::_Vector_base<triangle, std::allocator<triangle> >::_M_get_Tp_allocator() [94]
+-----------------------------------------------
+                0.00    0.00      17/51          __gnu_cxx::new_allocator<triangle>::allocate(unsigned int, void const*) [128]
+                0.00    0.00      34/51          std::vector<triangle, std::allocator<triangle> >::max_size() const [99]
+[95]     0.0    0.00    0.00      51         __gnu_cxx::new_allocator<triangle>::max_size() const [95]
+-----------------------------------------------
+                0.00    0.00      16/48          __gnu_cxx::new_allocator<p3Df>::allocate(unsigned int, void const*) [137]
+                0.00    0.00      32/48          std::vector<p3Df, std::allocator<p3Df> >::max_size() const [110]
+[96]     0.0    0.00    0.00      48         __gnu_cxx::new_allocator<p3Df>::max_size() const [96]
+-----------------------------------------------
+                0.00    0.00      17/34          std::vector<triangle, std::allocator<triangle> >::begin() [134]
+                0.00    0.00      17/34          std::vector<triangle, std::allocator<triangle> >::end() [133]
+[97]     0.0    0.00    0.00      34         __gnu_cxx::__normal_iterator<triangle*, std::vector<triangle, std::allocator<triangle> > >::__normal_iterator(triangle* const&) [97]
+-----------------------------------------------
+                0.00    0.00      34/34          std::vector<triangle, std::allocator<triangle> >::max_size() const [99]
+[98]     0.0    0.00    0.00      34         std::_Vector_base<triangle, std::allocator<triangle> >::_M_get_Tp_allocator() const [98]
+-----------------------------------------------
+                0.00    0.00      34/34          std::vector<triangle, std::allocator<triangle> >::_M_check_len(unsigned int, char const*) const [130]
+[99]     0.0    0.00    0.00      34         std::vector<triangle, std::allocator<triangle> >::max_size() const [99]
+                0.00    0.00      34/34          std::_Vector_base<triangle, std::allocator<triangle> >::_M_get_Tp_allocator() const [98]
+                0.00    0.00      34/51          __gnu_cxx::new_allocator<triangle>::max_size() const [95]
+-----------------------------------------------
+                0.00    0.00      34/34          triangle* std::__copy_move_a<false, triangle*, triangle*>(triangle*, triangle*, triangle*) [102]
+[100]    0.0    0.00    0.00      34         triangle* std::__copy_move<false, true, std::random_access_iterator_tag>::__copy_m<triangle>(triangle const*, triangle const*, triangle*) [100]
+-----------------------------------------------
+                0.00    0.00      34/34          triangle* std::uninitialized_copy<triangle*, triangle*>(triangle*, triangle*, triangle*) [104]
+[101]    0.0    0.00    0.00      34         triangle* std::__uninitialized_copy<true>::uninitialized_copy<triangle*, triangle*>(triangle*, triangle*, triangle*) [101]
+                0.00    0.00      34/34          triangle* std::copy<triangle*, triangle*>(triangle*, triangle*, triangle*) [107]
+-----------------------------------------------
+                0.00    0.00      34/34          triangle* std::__copy_move_a2<false, triangle*, triangle*>(triangle*, triangle*, triangle*) [103]
+[102]    0.0    0.00    0.00      34         triangle* std::__copy_move_a<false, triangle*, triangle*>(triangle*, triangle*, triangle*) [102]
+                0.00    0.00      34/34          triangle* std::__copy_move<false, true, std::random_access_iterator_tag>::__copy_m<triangle>(triangle const*, triangle const*, triangle*) [100]
+-----------------------------------------------
+                0.00    0.00      34/34          triangle* std::copy<triangle*, triangle*>(triangle*, triangle*, triangle*) [107]
+[103]    0.0    0.00    0.00      34         triangle* std::__copy_move_a2<false, triangle*, triangle*>(triangle*, triangle*, triangle*) [103]
+                0.00    0.00     102/102         std::__niter_base<triangle*, false>::__b(triangle*) [87]
+                0.00    0.00      34/34          triangle* std::__copy_move_a<false, triangle*, triangle*>(triangle*, triangle*, triangle*) [102]
+-----------------------------------------------
+                0.00    0.00      34/34          triangle* std::__uninitialized_copy_a<triangle*, triangle*, triangle>(triangle*, triangle*, triangle*, std::allocator<triangle>&) [105]
+[104]    0.0    0.00    0.00      34         triangle* std::uninitialized_copy<triangle*, triangle*>(triangle*, triangle*, triangle*) [104]
+                0.00    0.00      34/34          triangle* std::__uninitialized_copy<true>::uninitialized_copy<triangle*, triangle*>(triangle*, triangle*, triangle*) [101]
+-----------------------------------------------
+                0.00    0.00      34/34          triangle* std::__uninitialized_move_a<triangle*, triangle*, std::allocator<triangle> >(triangle*, triangle*, triangle*, std::allocator<triangle>&) [106]
+[105]    0.0    0.00    0.00      34         triangle* std::__uninitialized_copy_a<triangle*, triangle*, triangle>(triangle*, triangle*, triangle*, std::allocator<triangle>&) [105]
+                0.00    0.00      34/34          triangle* std::uninitialized_copy<triangle*, triangle*>(triangle*, triangle*, triangle*) [104]
+-----------------------------------------------
+                0.00    0.00      34/34          std::vector<triangle, std::allocator<triangle> >::_M_insert_aux(__gnu_cxx::__normal_iterator<triangle*, std::vector<triangle, std::allocator<triangle> > >, triangle const&) [132]
+[106]    0.0    0.00    0.00      34         triangle* std::__uninitialized_move_a<triangle*, triangle*, std::allocator<triangle> >(triangle*, triangle*, triangle*, std::allocator<triangle>&) [106]
+                0.00    0.00      34/34          triangle* std::__uninitialized_copy_a<triangle*, triangle*, triangle>(triangle*, triangle*, triangle*, std::allocator<triangle>&) [105]
+-----------------------------------------------
+                0.00    0.00      34/34          triangle* std::__uninitialized_copy<true>::uninitialized_copy<triangle*, triangle*>(triangle*, triangle*, triangle*) [101]
+[107]    0.0    0.00    0.00      34         triangle* std::copy<triangle*, triangle*>(triangle*, triangle*, triangle*) [107]
+                0.00    0.00      68/68          std::__miter_base<triangle*, false>::__b(triangle*) [90]
+                0.00    0.00      34/34          triangle* std::__copy_move_a2<false, triangle*, triangle*>(triangle*, triangle*, triangle*) [103]
+-----------------------------------------------
+                0.00    0.00      16/32          std::vector<p3Df, std::allocator<p3Df> >::end() [142]
+                0.00    0.00      16/32          std::vector<p3Df, std::allocator<p3Df> >::begin() [143]
+[108]    0.0    0.00    0.00      32         __gnu_cxx::__normal_iterator<p3Df*, std::vector<p3Df, std::allocator<p3Df> > >::__normal_iterator(p3Df* const&) [108]
+-----------------------------------------------
+                0.00    0.00      32/32          std::vector<p3Df, std::allocator<p3Df> >::max_size() const [110]
+[109]    0.0    0.00    0.00      32         std::_Vector_base<p3Df, std::allocator<p3Df> >::_M_get_Tp_allocator() const [109]
+-----------------------------------------------
+                0.00    0.00      32/32          std::vector<p3Df, std::allocator<p3Df> >::_M_check_len(unsigned int, char const*) const [139]
+[110]    0.0    0.00    0.00      32         std::vector<p3Df, std::allocator<p3Df> >::max_size() const [110]
+                0.00    0.00      32/32          std::_Vector_base<p3Df, std::allocator<p3Df> >::_M_get_Tp_allocator() const [109]
+                0.00    0.00      32/48          __gnu_cxx::new_allocator<p3Df>::max_size() const [96]
+-----------------------------------------------
+                0.00    0.00      32/32          p3Df* std::__copy_move_a<false, p3Df*, p3Df*>(p3Df*, p3Df*, p3Df*) [113]
+[111]    0.0    0.00    0.00      32         p3Df* std::__copy_move<false, true, std::random_access_iterator_tag>::__copy_m<p3Df>(p3Df const*, p3Df const*, p3Df*) [111]
+-----------------------------------------------
+                0.00    0.00      32/32          p3Df* std::uninitialized_copy<p3Df*, p3Df*>(p3Df*, p3Df*, p3Df*) [115]
+[112]    0.0    0.00    0.00      32         p3Df* std::__uninitialized_copy<true>::uninitialized_copy<p3Df*, p3Df*>(p3Df*, p3Df*, p3Df*) [112]
+                0.00    0.00      32/32          p3Df* std::copy<p3Df*, p3Df*>(p3Df*, p3Df*, p3Df*) [118]
+-----------------------------------------------
+                0.00    0.00      32/32          p3Df* std::__copy_move_a2<false, p3Df*, p3Df*>(p3Df*, p3Df*, p3Df*) [114]
+[113]    0.0    0.00    0.00      32         p3Df* std::__copy_move_a<false, p3Df*, p3Df*>(p3Df*, p3Df*, p3Df*) [113]
+                0.00    0.00      32/32          p3Df* std::__copy_move<false, true, std::random_access_iterator_tag>::__copy_m<p3Df>(p3Df const*, p3Df const*, p3Df*) [111]
+-----------------------------------------------
+                0.00    0.00      32/32          p3Df* std::copy<p3Df*, p3Df*>(p3Df*, p3Df*, p3Df*) [118]
+[114]    0.0    0.00    0.00      32         p3Df* std::__copy_move_a2<false, p3Df*, p3Df*>(p3Df*, p3Df*, p3Df*) [114]
+                0.00    0.00      96/96          std::__niter_base<p3Df*, false>::__b(p3Df*) [88]
+                0.00    0.00      32/32          p3Df* std::__copy_move_a<false, p3Df*, p3Df*>(p3Df*, p3Df*, p3Df*) [113]
+-----------------------------------------------
+                0.00    0.00      32/32          p3Df* std::__uninitialized_copy_a<p3Df*, p3Df*, p3Df>(p3Df*, p3Df*, p3Df*, std::allocator<p3Df>&) [116]
+[115]    0.0    0.00    0.00      32         p3Df* std::uninitialized_copy<p3Df*, p3Df*>(p3Df*, p3Df*, p3Df*) [115]
+                0.00    0.00      32/32          p3Df* std::__uninitialized_copy<true>::uninitialized_copy<p3Df*, p3Df*>(p3Df*, p3Df*, p3Df*) [112]
+-----------------------------------------------
+                0.00    0.00      32/32          p3Df* std::__uninitialized_move_a<p3Df*, p3Df*, std::allocator<p3Df> >(p3Df*, p3Df*, p3Df*, std::allocator<p3Df>&) [117]
+[116]    0.0    0.00    0.00      32         p3Df* std::__uninitialized_copy_a<p3Df*, p3Df*, p3Df>(p3Df*, p3Df*, p3Df*, std::allocator<p3Df>&) [116]
+                0.00    0.00      32/32          p3Df* std::uninitialized_copy<p3Df*, p3Df*>(p3Df*, p3Df*, p3Df*) [115]
+-----------------------------------------------
+                0.00    0.00      32/32          std::vector<p3Df, std::allocator<p3Df> >::_M_insert_aux(__gnu_cxx::__normal_iterator<p3Df*, std::vector<p3Df, std::allocator<p3Df> > >, p3Df const&) [141]
+[117]    0.0    0.00    0.00      32         p3Df* std::__uninitialized_move_a<p3Df*, p3Df*, std::allocator<p3Df> >(p3Df*, p3Df*, p3Df*, std::allocator<p3Df>&) [117]
+                0.00    0.00      32/32          p3Df* std::__uninitialized_copy_a<p3Df*, p3Df*, p3Df>(p3Df*, p3Df*, p3Df*, std::allocator<p3Df>&) [116]
+-----------------------------------------------
+                0.00    0.00      32/32          p3Df* std::__uninitialized_copy<true>::uninitialized_copy<p3Df*, p3Df*>(p3Df*, p3Df*, p3Df*) [112]
+[118]    0.0    0.00    0.00      32         p3Df* std::copy<p3Df*, p3Df*>(p3Df*, p3Df*, p3Df*) [118]
+                0.00    0.00      64/64          std::__miter_base<p3Df*, false>::__b(p3Df*) [92]
+                0.00    0.00      32/32          p3Df* std::__copy_move_a2<false, p3Df*, p3Df*>(p3Df*, p3Df*, p3Df*) [114]
+-----------------------------------------------
+                0.00    0.00      22/22          void std::_Destroy<p3Df*>(p3Df*, p3Df*) [120]
+[119]    0.0    0.00    0.00      22         void std::_Destroy_aux<true>::__destroy<p3Df*>(p3Df*, p3Df*) [119]
+-----------------------------------------------
+                0.00    0.00      22/22          void std::_Destroy<p3Df*, p3Df>(p3Df*, p3Df*, std::allocator<p3Df>&) [121]
+[120]    0.0    0.00    0.00      22         void std::_Destroy<p3Df*>(p3Df*, p3Df*) [120]
+                0.00    0.00      22/22          void std::_Destroy_aux<true>::__destroy<p3Df*>(p3Df*, p3Df*) [119]
+-----------------------------------------------
+                0.00    0.00       3/22          std::vector<p3Df, std::allocator<p3Df> >::~vector() [156]
+                0.00    0.00       3/22          std::vector<p3Df, std::allocator<p3Df> >::_M_erase_at_end(p3Df*) [154]
+                0.00    0.00      16/22          std::vector<p3Df, std::allocator<p3Df> >::_M_insert_aux(__gnu_cxx::__normal_iterator<p3Df*, std::vector<p3Df, std::allocator<p3Df> > >, p3Df const&) [141]
+[121]    0.0    0.00    0.00      22         void std::_Destroy<p3Df*, p3Df>(p3Df*, p3Df*, std::allocator<p3Df>&) [121]
+                0.00    0.00      22/22          void std::_Destroy<p3Df*>(p3Df*, p3Df*) [120]
+-----------------------------------------------
+                0.00    0.00      19/19          void std::_Destroy<triangle*>(triangle*, triangle*) [124]
+[122]    0.0    0.00    0.00      19         void std::_Destroy_aux<true>::__destroy<triangle*>(triangle*, triangle*) [122]
+-----------------------------------------------
+                0.00    0.00       3/19          std::_Vector_base<p3Df, std::allocator<p3Df> >::~_Vector_base() [153]
+                0.00    0.00      16/19          std::vector<p3Df, std::allocator<p3Df> >::_M_insert_aux(__gnu_cxx::__normal_iterator<p3Df*, std::vector<p3Df, std::allocator<p3Df> > >, p3Df const&) [141]
+[123]    0.0    0.00    0.00      19         std::_Vector_base<p3Df, std::allocator<p3Df> >::_M_deallocate(p3Df*, unsigned int) [123]
+                0.00    0.00      16/16          __gnu_cxx::new_allocator<p3Df>::deallocate(p3Df*, unsigned int) [136]
+-----------------------------------------------
+                0.00    0.00      19/19          void std::_Destroy<triangle*, triangle>(triangle*, triangle*, std::allocator<triangle>&) [125]
+[124]    0.0    0.00    0.00      19         void std::_Destroy<triangle*>(triangle*, triangle*) [124]
+                0.00    0.00      19/19          void std::_Destroy_aux<true>::__destroy<triangle*>(triangle*, triangle*) [122]
+-----------------------------------------------
+                0.00    0.00       1/19          std::vector<triangle, std::allocator<triangle> >::~vector() [175]
+                0.00    0.00       1/19          std::vector<triangle, std::allocator<triangle> >::_M_erase_at_end(triangle*) [173]
+                0.00    0.00      17/19          std::vector<triangle, std::allocator<triangle> >::_M_insert_aux(__gnu_cxx::__normal_iterator<triangle*, std::vector<triangle, std::allocator<triangle> > >, triangle const&) [132]
+[125]    0.0    0.00    0.00      19         void std::_Destroy<triangle*, triangle>(triangle*, triangle*, std::allocator<triangle>&) [125]
+                0.00    0.00      19/19          void std::_Destroy<triangle*>(triangle*, triangle*) [124]
+-----------------------------------------------
+                0.00    0.00       1/18          std::_Vector_base<triangle, std::allocator<triangle> >::~_Vector_base() [172]
+                0.00    0.00      17/18          std::vector<triangle, std::allocator<triangle> >::_M_insert_aux(__gnu_cxx::__normal_iterator<triangle*, std::vector<triangle, std::allocator<triangle> > >, triangle const&) [132]
+[126]    0.0    0.00    0.00      18         std::_Vector_base<triangle, std::allocator<triangle> >::_M_deallocate(triangle*, unsigned int) [126]
+                0.00    0.00      17/17          __gnu_cxx::new_allocator<triangle>::deallocate(triangle*, unsigned int) [127]
+-----------------------------------------------
+                0.00    0.00      17/17          std::_Vector_base<triangle, std::allocator<triangle> >::_M_deallocate(triangle*, unsigned int) [126]
+[127]    0.0    0.00    0.00      17         __gnu_cxx::new_allocator<triangle>::deallocate(triangle*, unsigned int) [127]
+-----------------------------------------------
+                0.00    0.00      17/17          std::_Vector_base<triangle, std::allocator<triangle> >::_M_allocate(unsigned int) [131]
+[128]    0.0    0.00    0.00      17         __gnu_cxx::new_allocator<triangle>::allocate(unsigned int, void const*) [128]
+                0.00    0.00      17/51          __gnu_cxx::new_allocator<triangle>::max_size() const [95]
+-----------------------------------------------
+                0.00    0.00      17/17          std::vector<triangle, std::allocator<triangle> >::_M_insert_aux(__gnu_cxx::__normal_iterator<triangle*, std::vector<triangle, std::allocator<triangle> > >, triangle const&) [132]
+[129]    0.0    0.00    0.00      17         __gnu_cxx::__normal_iterator<triangle*, std::vector<triangle, std::allocator<triangle> > >::difference_type __gnu_cxx::operator-<triangle*, std::vector<triangle, std::allocator<triangle> > >(__gnu_cxx::__normal_iterator<triangle*, std::vector<triangle, std::allocator<triangle> > > const&, __gnu_cxx::__normal_iterator<triangle*, std::vector<triangle, std::allocator<triangle> > > const&) [129]
+                0.00    0.00      34/68          __gnu_cxx::__normal_iterator<triangle*, std::vector<triangle, std::allocator<triangle> > >::base() const [89]
+-----------------------------------------------
+                0.00    0.00      17/17          std::vector<triangle, std::allocator<triangle> >::_M_insert_aux(__gnu_cxx::__normal_iterator<triangle*, std::vector<triangle, std::allocator<triangle> > >, triangle const&) [132]
+[130]    0.0    0.00    0.00      17         std::vector<triangle, std::allocator<triangle> >::_M_check_len(unsigned int, char const*) const [130]
+                0.00    0.00      68/80073       std::vector<triangle, std::allocator<triangle> >::size() const [24]
+                0.00    0.00      34/34          std::vector<triangle, std::allocator<triangle> >::max_size() const [99]
+                0.00    0.00      17/5148        unsigned int const& std::max<unsigned int>(unsigned int const&, unsigned int const&) [53]
+-----------------------------------------------
+                0.00    0.00      17/17          std::vector<triangle, std::allocator<triangle> >::_M_insert_aux(__gnu_cxx::__normal_iterator<triangle*, std::vector<triangle, std::allocator<triangle> > >, triangle const&) [132]
+[131]    0.0    0.00    0.00      17         std::_Vector_base<triangle, std::allocator<triangle> >::_M_allocate(unsigned int) [131]
+                0.00    0.00      17/17          __gnu_cxx::new_allocator<triangle>::allocate(unsigned int, void const*) [128]
+-----------------------------------------------
+                0.00    0.00      17/17          std::vector<triangle, std::allocator<triangle> >::push_back(triangle const&) [26]
+[132]    0.0    0.00    0.00      17         std::vector<triangle, std::allocator<triangle> >::_M_insert_aux(__gnu_cxx::__normal_iterator<triangle*, std::vector<triangle, std::allocator<triangle> > >, triangle const&) [132]
+                0.00    0.00      51/53          std::_Vector_base<triangle, std::allocator<triangle> >::_M_get_Tp_allocator() [94]
+                0.00    0.00      34/68          __gnu_cxx::__normal_iterator<triangle*, std::vector<triangle, std::allocator<triangle> > >::base() const [89]
+                0.00    0.00      34/34          triangle* std::__uninitialized_move_a<triangle*, triangle*, std::allocator<triangle> >(triangle*, triangle*, triangle*, std::allocator<triangle>&) [106]
+                0.00    0.00      17/17          std::vector<triangle, std::allocator<triangle> >::_M_check_len(unsigned int, char const*) const [130]
+                0.00    0.00      17/17          std::vector<triangle, std::allocator<triangle> >::begin() [134]
+                0.00    0.00      17/17          __gnu_cxx::__normal_iterator<triangle*, std::vector<triangle, std::allocator<triangle> > >::difference_type __gnu_cxx::operator-<triangle*, std::vector<triangle, std::allocator<triangle> > >(__gnu_cxx::__normal_iterator<triangle*, std::vector<triangle, std::allocator<triangle> > > const&, __gnu_cxx::__normal_iterator<triangle*, std::vector<triangle, std::allocator<triangle> > > const&) [129]
+                0.00    0.00      17/17          std::_Vector_base<triangle, std::allocator<triangle> >::_M_allocate(unsigned int) [131]
+                0.00    0.00      17/40000       __gnu_cxx::new_allocator<triangle>::construct(triangle*, triangle const&) [25]
+                0.00    0.00      17/19          void std::_Destroy<triangle*, triangle>(triangle*, triangle*, std::allocator<triangle>&) [125]
+                0.00    0.00      17/18          std::_Vector_base<triangle, std::allocator<triangle> >::_M_deallocate(triangle*, unsigned int) [126]
+-----------------------------------------------
+                0.00    0.00      17/17          std::vector<triangle, std::allocator<triangle> >::push_back(triangle const&) [26]
+[133]    0.0    0.00    0.00      17         std::vector<triangle, std::allocator<triangle> >::end() [133]
+                0.00    0.00      17/34          __gnu_cxx::__normal_iterator<triangle*, std::vector<triangle, std::allocator<triangle> > >::__normal_iterator(triangle* const&) [97]
+-----------------------------------------------
+                0.00    0.00      17/17          std::vector<triangle, std::allocator<triangle> >::_M_insert_aux(__gnu_cxx::__normal_iterator<triangle*, std::vector<triangle, std::allocator<triangle> > >, triangle const&) [132]
+[134]    0.0    0.00    0.00      17         std::vector<triangle, std::allocator<triangle> >::begin() [134]
+                0.00    0.00      17/34          __gnu_cxx::__normal_iterator<triangle*, std::vector<triangle, std::allocator<triangle> > >::__normal_iterator(triangle* const&) [97]
+-----------------------------------------------
+                0.00    0.00      16/16          tetraPoint(p3Df, p3Df, p3Df, p3Df, p3Df) [7]
+[135]    0.0    0.00    0.00      16         tetraPointLimits(signcoordB*) [135]
+-----------------------------------------------
+                0.00    0.00      16/16          std::_Vector_base<p3Df, std::allocator<p3Df> >::_M_deallocate(p3Df*, unsigned int) [123]
+[136]    0.0    0.00    0.00      16         __gnu_cxx::new_allocator<p3Df>::deallocate(p3Df*, unsigned int) [136]
+-----------------------------------------------
+                0.00    0.00      16/16          std::_Vector_base<p3Df, std::allocator<p3Df> >::_M_allocate(unsigned int) [140]
+[137]    0.0    0.00    0.00      16         __gnu_cxx::new_allocator<p3Df>::allocate(unsigned int, void const*) [137]
+                0.00    0.00      16/48          __gnu_cxx::new_allocator<p3Df>::max_size() const [96]
+-----------------------------------------------
+                0.00    0.00      16/16          std::vector<p3Df, std::allocator<p3Df> >::_M_insert_aux(__gnu_cxx::__normal_iterator<p3Df*, std::vector<p3Df, std::allocator<p3Df> > >, p3Df const&) [141]
+[138]    0.0    0.00    0.00      16         __gnu_cxx::__normal_iterator<p3Df*, std::vector<p3Df, std::allocator<p3Df> > >::difference_type __gnu_cxx::operator-<p3Df*, std::vector<p3Df, std::allocator<p3Df> > >(__gnu_cxx::__normal_iterator<p3Df*, std::vector<p3Df, std::allocator<p3Df> > > const&, __gnu_cxx::__normal_iterator<p3Df*, std::vector<p3Df, std::allocator<p3Df> > > const&) [138]
+                0.00    0.00      32/64          __gnu_cxx::__normal_iterator<p3Df*, std::vector<p3Df, std::allocator<p3Df> > >::base() const [91]
+-----------------------------------------------
+                0.00    0.00      16/16          std::vector<p3Df, std::allocator<p3Df> >::_M_insert_aux(__gnu_cxx::__normal_iterator<p3Df*, std::vector<p3Df, std::allocator<p3Df> > >, p3Df const&) [141]
+[139]    0.0    0.00    0.00      16         std::vector<p3Df, std::allocator<p3Df> >::_M_check_len(unsigned int, char const*) const [139]
+                0.00    0.00      64/20073       std::vector<p3Df, std::allocator<p3Df> >::size() const [30]
+                0.00    0.00      32/32          std::vector<p3Df, std::allocator<p3Df> >::max_size() const [110]
+                0.00    0.00      16/5148        unsigned int const& std::max<unsigned int>(unsigned int const&, unsigned int const&) [53]
+-----------------------------------------------
+                0.00    0.00      16/16          std::vector<p3Df, std::allocator<p3Df> >::_M_insert_aux(__gnu_cxx::__normal_iterator<p3Df*, std::vector<p3Df, std::allocator<p3Df> > >, p3Df const&) [141]
+[140]    0.0    0.00    0.00      16         std::_Vector_base<p3Df, std::allocator<p3Df> >::_M_allocate(unsigned int) [140]
+                0.00    0.00      16/16          __gnu_cxx::new_allocator<p3Df>::allocate(unsigned int, void const*) [137]
+-----------------------------------------------
+                0.00    0.00      16/16          std::vector<p3Df, std::allocator<p3Df> >::push_back(p3Df const&) [32]
+[141]    0.0    0.00    0.00      16         std::vector<p3Df, std::allocator<p3Df> >::_M_insert_aux(__gnu_cxx::__normal_iterator<p3Df*, std::vector<p3Df, std::allocator<p3Df> > >, p3Df const&) [141]
+                0.00    0.00      48/54          std::_Vector_base<p3Df, std::allocator<p3Df> >::_M_get_Tp_allocator() [93]
+                0.00    0.00      32/64          __gnu_cxx::__normal_iterator<p3Df*, std::vector<p3Df, std::allocator<p3Df> > >::base() const [91]
+                0.00    0.00      32/32          p3Df* std::__uninitialized_move_a<p3Df*, p3Df*, std::allocator<p3Df> >(p3Df*, p3Df*, p3Df*, std::allocator<p3Df>&) [117]
+                0.00    0.00      16/16          std::vector<p3Df, std::allocator<p3Df> >::_M_check_len(unsigned int, char const*) const [139]
+                0.00    0.00      16/16          std::vector<p3Df, std::allocator<p3Df> >::begin() [143]
+                0.00    0.00      16/16          __gnu_cxx::__normal_iterator<p3Df*, std::vector<p3Df, std::allocator<p3Df> > >::difference_type __gnu_cxx::operator-<p3Df*, std::vector<p3Df, std::allocator<p3Df> > >(__gnu_cxx::__normal_iterator<p3Df*, std::vector<p3Df, std::allocator<p3Df> > > const&, __gnu_cxx::__normal_iterator<p3Df*, std::vector<p3Df, std::allocator<p3Df> > > const&) [138]
+                0.00    0.00      16/16          std::_Vector_base<p3Df, std::allocator<p3Df> >::_M_allocate(unsigned int) [140]
+                0.00    0.00      16/20002       __gnu_cxx::new_allocator<p3Df>::construct(p3Df*, p3Df const&) [31]
+                0.00    0.00      16/22          void std::_Destroy<p3Df*, p3Df>(p3Df*, p3Df*, std::allocator<p3Df>&) [121]
+                0.00    0.00      16/19          std::_Vector_base<p3Df, std::allocator<p3Df> >::_M_deallocate(p3Df*, unsigned int) [123]
+-----------------------------------------------
+                0.00    0.00      16/16          std::vector<p3Df, std::allocator<p3Df> >::push_back(p3Df const&) [32]
+[142]    0.0    0.00    0.00      16         std::vector<p3Df, std::allocator<p3Df> >::end() [142]
+                0.00    0.00      16/32          __gnu_cxx::__normal_iterator<p3Df*, std::vector<p3Df, std::allocator<p3Df> > >::__normal_iterator(p3Df* const&) [108]
+-----------------------------------------------
+                0.00    0.00      16/16          std::vector<p3Df, std::allocator<p3Df> >::_M_insert_aux(__gnu_cxx::__normal_iterator<p3Df*, std::vector<p3Df, std::allocator<p3Df> > >, p3Df const&) [141]
+[143]    0.0    0.00    0.00      16         std::vector<p3Df, std::allocator<p3Df> >::begin() [143]
+                0.00    0.00      16/32          __gnu_cxx::__normal_iterator<p3Df*, std::vector<p3Df, std::allocator<p3Df> > >::__normal_iterator(p3Df* const&) [108]
+-----------------------------------------------
+                                 576             eraseTetratree(node*) [144]
+                0.00    0.00       8/8           eraseTetratree(tetratree*) [165]
+[144]    0.0    0.00    0.00       8+576     eraseTetratree(node*) [144]
+                0.00    0.00     584/584         std::vector<int, std::allocator<int> >::clear() [80]
+                0.00    0.00     576/576         tetracone::~tetracone() [86]
+                                 576             eraseTetratree(node*) [144]
+-----------------------------------------------
+                0.00    0.00       6/6           std::allocator<p3Df>::allocator() [146]
+[145]    0.0    0.00    0.00       6         __gnu_cxx::new_allocator<p3Df>::new_allocator() [145]
+-----------------------------------------------
+                0.00    0.00       6/6           std::_Vector_base<p3Df, std::allocator<p3Df> >::_Vector_impl::_Vector_impl() [147]
+[146]    0.0    0.00    0.00       6         std::allocator<p3Df>::allocator() [146]
+                0.00    0.00       6/6           __gnu_cxx::new_allocator<p3Df>::new_allocator() [145]
+-----------------------------------------------
+                0.00    0.00       6/6           std::_Vector_base<p3Df, std::allocator<p3Df> >::_Vector_base() [148]
+[147]    0.0    0.00    0.00       6         std::_Vector_base<p3Df, std::allocator<p3Df> >::_Vector_impl::_Vector_impl() [147]
+                0.00    0.00       6/6           std::allocator<p3Df>::allocator() [146]
+-----------------------------------------------
+                0.00    0.00       6/6           std::vector<p3Df, std::allocator<p3Df> >::vector() [149]
+[148]    0.0    0.00    0.00       6         std::_Vector_base<p3Df, std::allocator<p3Df> >::_Vector_base() [148]
+                0.00    0.00       6/6           std::_Vector_base<p3Df, std::allocator<p3Df> >::_Vector_impl::_Vector_impl() [147]
+-----------------------------------------------
+                0.00    0.00       6/6           mesh::mesh() [157]
+[149]    0.0    0.00    0.00       6         std::vector<p3Df, std::allocator<p3Df> >::vector() [149]
+                0.00    0.00       6/6           std::_Vector_base<p3Df, std::allocator<p3Df> >::_Vector_base() [148]
+-----------------------------------------------
+                0.00    0.00       3/3           std::allocator<p3Df>::~allocator() [151]
+[150]    0.0    0.00    0.00       3         __gnu_cxx::new_allocator<p3Df>::~new_allocator() [150]
+-----------------------------------------------
+                0.00    0.00       3/3           std::_Vector_base<p3Df, std::allocator<p3Df> >::_Vector_impl::~_Vector_impl() [152]
+[151]    0.0    0.00    0.00       3         std::allocator<p3Df>::~allocator() [151]
+                0.00    0.00       3/3           __gnu_cxx::new_allocator<p3Df>::~new_allocator() [150]
+-----------------------------------------------
+                0.00    0.00       3/3           std::_Vector_base<p3Df, std::allocator<p3Df> >::~_Vector_base() [153]
+[152]    0.0    0.00    0.00       3         std::_Vector_base<p3Df, std::allocator<p3Df> >::_Vector_impl::~_Vector_impl() [152]
+                0.00    0.00       3/3           std::allocator<p3Df>::~allocator() [151]
+-----------------------------------------------
+                0.00    0.00       3/3           std::vector<p3Df, std::allocator<p3Df> >::~vector() [156]
+[153]    0.0    0.00    0.00       3         std::_Vector_base<p3Df, std::allocator<p3Df> >::~_Vector_base() [153]
+                0.00    0.00       3/19          std::_Vector_base<p3Df, std::allocator<p3Df> >::_M_deallocate(p3Df*, unsigned int) [123]
+                0.00    0.00       3/3           std::_Vector_base<p3Df, std::allocator<p3Df> >::_Vector_impl::~_Vector_impl() [152]
+-----------------------------------------------
+                0.00    0.00       3/3           std::vector<p3Df, std::allocator<p3Df> >::clear() [155]
+[154]    0.0    0.00    0.00       3         std::vector<p3Df, std::allocator<p3Df> >::_M_erase_at_end(p3Df*) [154]
+                0.00    0.00       3/54          std::_Vector_base<p3Df, std::allocator<p3Df> >::_M_get_Tp_allocator() [93]
+                0.00    0.00       3/22          void std::_Destroy<p3Df*, p3Df>(p3Df*, p3Df*, std::allocator<p3Df>&) [121]
+-----------------------------------------------
+                0.00    0.00       3/3           eraseTetratree(tetratree*) [165]
+[155]    0.0    0.00    0.00       3         std::vector<p3Df, std::allocator<p3Df> >::clear() [155]
+                0.00    0.00       3/3           std::vector<p3Df, std::allocator<p3Df> >::_M_erase_at_end(p3Df*) [154]
+-----------------------------------------------
+                0.00    0.00       3/3           mesh::~mesh() [168]
+[156]    0.0    0.00    0.00       3         std::vector<p3Df, std::allocator<p3Df> >::~vector() [156]
+                0.00    0.00       3/54          std::_Vector_base<p3Df, std::allocator<p3Df> >::_M_get_Tp_allocator() [93]
+                0.00    0.00       3/22          void std::_Destroy<p3Df*, p3Df>(p3Df*, p3Df*, std::allocator<p3Df>&) [121]
+                0.00    0.00       3/3           std::_Vector_base<p3Df, std::allocator<p3Df> >::~_Vector_base() [153]
+-----------------------------------------------
+                0.00    0.00       2/2           main [1]
+[157]    0.0    0.00    0.00       2         mesh::mesh() [157]
+                0.00    0.00       6/6           std::vector<p3Df, std::allocator<p3Df> >::vector() [149]
+                0.00    0.00       2/2           std::vector<triangle, std::allocator<triangle> >::vector() [162]
+-----------------------------------------------
+                0.00    0.00       2/2           std::allocator<triangle>::allocator() [159]
+[158]    0.0    0.00    0.00       2         __gnu_cxx::new_allocator<triangle>::new_allocator() [158]
+-----------------------------------------------
+                0.00    0.00       2/2           std::_Vector_base<triangle, std::allocator<triangle> >::_Vector_impl::_Vector_impl() [160]
+[159]    0.0    0.00    0.00       2         std::allocator<triangle>::allocator() [159]
+                0.00    0.00       2/2           __gnu_cxx::new_allocator<triangle>::new_allocator() [158]
+-----------------------------------------------
+                0.00    0.00       2/2           std::_Vector_base<triangle, std::allocator<triangle> >::_Vector_base() [161]
+[160]    0.0    0.00    0.00       2         std::_Vector_base<triangle, std::allocator<triangle> >::_Vector_impl::_Vector_impl() [160]
+                0.00    0.00       2/2           std::allocator<triangle>::allocator() [159]
+-----------------------------------------------
+                0.00    0.00       2/2           std::vector<triangle, std::allocator<triangle> >::vector() [162]
+[161]    0.0    0.00    0.00       2         std::_Vector_base<triangle, std::allocator<triangle> >::_Vector_base() [161]
+                0.00    0.00       2/2           std::_Vector_base<triangle, std::allocator<triangle> >::_Vector_impl::_Vector_impl() [160]
+-----------------------------------------------
+                0.00    0.00       2/2           mesh::mesh() [157]
+[162]    0.0    0.00    0.00       2         std::vector<triangle, std::allocator<triangle> >::vector() [162]
+                0.00    0.00       2/2           std::_Vector_base<triangle, std::allocator<triangle> >::_Vector_base() [161]
+-----------------------------------------------
+                0.00    0.00       1/1           __do_global_ctors_aux [316]
+[163]    0.0    0.00    0.00       1         global constructors keyed to contador [163]
+                0.00    0.00       1/1           __static_initialization_and_destruction_0(int, int) [167]
+-----------------------------------------------
+                0.00    0.00       1/1           __do_global_ctors_aux [316]
+[164]    0.0    0.00    0.00       1         global constructors keyed to tiempo1 [164]
+                0.00    0.00       1/1           __static_initialization_and_destruction_0(int, int) [166]
+-----------------------------------------------
+                0.00    0.00       1/1           main [1]
+[165]    0.0    0.00    0.00       1         eraseTetratree(tetratree*) [165]
+                0.00    0.00       8/8           eraseTetratree(node*) [144]
+                0.00    0.00       3/3           std::vector<p3Df, std::allocator<p3Df> >::clear() [155]
+                0.00    0.00       1/1           std::vector<triangle, std::allocator<triangle> >::clear() [174]
+                0.00    0.00       1/1           mesh::~mesh() [168]
+-----------------------------------------------
+                0.00    0.00       1/1           global constructors keyed to tiempo1 [164]
+[166]    0.0    0.00    0.00       1         __static_initialization_and_destruction_0(int, int) [166]
+-----------------------------------------------
+                0.00    0.00       1/1           global constructors keyed to contador [163]
+[167]    0.0    0.00    0.00       1         __static_initialization_and_destruction_0(int, int) [167]
+                0.00    0.00       1/1162        std::vector<int, std::allocator<int> >::vector() [69]
+-----------------------------------------------
+                0.00    0.00       1/1           eraseTetratree(tetratree*) [165]
+[168]    0.0    0.00    0.00       1         mesh::~mesh() [168]
+                0.00    0.00       3/3           std::vector<p3Df, std::allocator<p3Df> >::~vector() [156]
+                0.00    0.00       1/1           std::vector<triangle, std::allocator<triangle> >::~vector() [175]
+-----------------------------------------------
+                0.00    0.00       1/1           std::allocator<triangle>::~allocator() [170]
+[169]    0.0    0.00    0.00       1         __gnu_cxx::new_allocator<triangle>::~new_allocator() [169]
+-----------------------------------------------
+                0.00    0.00       1/1           std::_Vector_base<triangle, std::allocator<triangle> >::_Vector_impl::~_Vector_impl() [171]
+[170]    0.0    0.00    0.00       1         std::allocator<triangle>::~allocator() [170]
+                0.00    0.00       1/1           __gnu_cxx::new_allocator<triangle>::~new_allocator() [169]
+-----------------------------------------------
+                0.00    0.00       1/1           std::_Vector_base<triangle, std::allocator<triangle> >::~_Vector_base() [172]
+[171]    0.0    0.00    0.00       1         std::_Vector_base<triangle, std::allocator<triangle> >::_Vector_impl::~_Vector_impl() [171]
+                0.00    0.00       1/1           std::allocator<triangle>::~allocator() [170]
+-----------------------------------------------
+                0.00    0.00       1/1           std::vector<triangle, std::allocator<triangle> >::~vector() [175]
+[172]    0.0    0.00    0.00       1         std::_Vector_base<triangle, std::allocator<triangle> >::~_Vector_base() [172]
+                0.00    0.00       1/18          std::_Vector_base<triangle, std::allocator<triangle> >::_M_deallocate(triangle*, unsigned int) [126]
+                0.00    0.00       1/1           std::_Vector_base<triangle, std::allocator<triangle> >::_Vector_impl::~_Vector_impl() [171]
+-----------------------------------------------
+                0.00    0.00       1/1           std::vector<triangle, std::allocator<triangle> >::clear() [174]
+[173]    0.0    0.00    0.00       1         std::vector<triangle, std::allocator<triangle> >::_M_erase_at_end(triangle*) [173]
+                0.00    0.00       1/53          std::_Vector_base<triangle, std::allocator<triangle> >::_M_get_Tp_allocator() [94]
+                0.00    0.00       1/19          void std::_Destroy<triangle*, triangle>(triangle*, triangle*, std::allocator<triangle>&) [125]
+-----------------------------------------------
+                0.00    0.00       1/1           eraseTetratree(tetratree*) [165]
+[174]    0.0    0.00    0.00       1         std::vector<triangle, std::allocator<triangle> >::clear() [174]
+                0.00    0.00       1/1           std::vector<triangle, std::allocator<triangle> >::_M_erase_at_end(triangle*) [173]
+-----------------------------------------------
+                0.00    0.00       1/1           mesh::~mesh() [168]
+[175]    0.0    0.00    0.00       1         std::vector<triangle, std::allocator<triangle> >::~vector() [175]
+                0.00    0.00       1/53          std::_Vector_base<triangle, std::allocator<triangle> >::_M_get_Tp_allocator() [94]
+                0.00    0.00       1/19          void std::_Destroy<triangle*, triangle>(triangle*, triangle*, std::allocator<triangle>&) [125]
+                0.00    0.00       1/1           std::_Vector_base<triangle, std::allocator<triangle> >::~_Vector_base() [172]
+-----------------------------------------------
+
+Index by function name
+
+ [163] global constructors keyed to contador [24] std::vector<triangle, std::allocator<triangle> >::size() const [142] std::vector<p3Df, std::allocator<p3Df> >::end()
+ [164] global constructors keyed to tiempo1 [99] std::vector<triangle, std::allocator<triangle> >::max_size() const [143] std::vector<p3Df, std::allocator<p3Df> >::begin()
+   [7] tetraPoint(p3Df, p3Df, p3Df, p3Df, p3Df) [14] std::vector<int, std::allocator<int> >::_M_check_len(unsigned int, char const*) const [155] std::vector<p3Df, std::allocator<p3Df> >::clear()
+   [8] tetraPoint(p3Df, p3Df, p3Df, p3Df, p3Df, int) [73] std::vector<int, std::allocator<int> >::end() const [32] std::vector<p3Df, std::allocator<p3Df> >::push_back(p3Df const&)
+   [4] clasifyTriang(tetracone*, int, mesh*, p3Df) [10] std::vector<int, std::allocator<int> >::size() const [149] std::vector<p3Df, std::allocator<p3Df> >::vector()
+   [5] signcoordBary(p3Df, p3Df, p3Df, p3Df, p3Df, int, signcoordB*) [74] std::vector<int, std::allocator<int> >::begin() const [156] std::vector<p3Df, std::allocator<p3Df> >::~vector()
+ [144] eraseTetratree(node*)  [38] std::vector<int, std::allocator<int> >::max_size() const [9] std::vector<p3Df, std::allocator<p3Df> >::operator[](unsigned int)
+ [165] eraseTetratree(tetratree*) [146] std::allocator<p3Df>::allocator() [132] std::vector<triangle, std::allocator<triangle> >::_M_insert_aux(__gnu_cxx::__normal_iterator<triangle*, std::vector<triangle, std::allocator<triangle> > >, triangle const&)
+ [135] tetraPointLimits(signcoordB*) [151] std::allocator<p3Df>::~allocator() [173] std::vector<triangle, std::allocator<triangle> >::_M_erase_at_end(triangle*)
+   [2] generateTetraTree(unsigned int, unsigned int, tetratree*, mesh*) [159] std::allocator<triangle>::allocator() [133] std::vector<triangle, std::allocator<triangle> >::end()
+   [3] generateTetraTree(unsigned int, unsigned int, std::vector<int, std::allocator<int> >, node*, mesh*, p3Df) [170] std::allocator<triangle>::~allocator() [134] std::vector<triangle, std::allocator<triangle> >::begin()
+  [11] testTetraPointLimit(p3Df, p3Df, p3Df, p3Df, p3Df) [75] std::allocator<int>::allocator(std::allocator<int> const&) [174] std::vector<triangle, std::allocator<triangle> >::clear()
+ [166] __static_initialization_and_destruction_0(int, int) [63] std::allocator<int>::allocator() [26] std::vector<triangle, std::allocator<triangle> >::push_back(triangle const&)
+ [167] __static_initialization_and_destruction_0(int, int) [64] std::allocator<int>::~allocator() [162] std::vector<triangle, std::allocator<triangle> >::vector()
+  [12] loadOBJ(mesh*, char*) [111] p3Df* std::__copy_move<false, true, std::random_access_iterator_tag>::__copy_m<p3Df>(p3Df const*, p3Df const*, p3Df*) [175] std::vector<triangle, std::allocator<triangle> >::~vector()
+   [6] tetraSeg(p3Df, p3Df, p3Df, p3Df, p3Df) [100] triangle* std::__copy_move<false, true, std::random_access_iterator_tag>::__copy_m<triangle>(triangle const*, triangle const*, triangle*) [20] std::vector<triangle, std::allocator<triangle> >::operator[](unsigned int)
+ [157] mesh::mesh()           [36] int* std::__copy_move<false, true, std::random_access_iterator_tag>::__copy_m<int>(int const*, int const*, int*) [15] std::vector<int, std::allocator<int> >::_M_insert_aux(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int const&)
+ [168] mesh::~mesh()         [119] void std::_Destroy_aux<true>::__destroy<p3Df*>(p3Df*, p3Df*) [79] std::vector<int, std::allocator<int> >::_M_erase_at_end(int*)
+ [136] __gnu_cxx::new_allocator<p3Df>::deallocate(p3Df*, unsigned int) [122] void std::_Destroy_aux<true>::__destroy<triangle*>(triangle*, triangle*) [55] std::vector<int, std::allocator<int> >::end()
+ [137] __gnu_cxx::new_allocator<p3Df>::allocate(unsigned int, void const*) [46] void std::_Destroy_aux<true>::__destroy<int*>(int*, int*) [56] std::vector<int, std::allocator<int> >::begin()
+  [31] __gnu_cxx::new_allocator<p3Df>::construct(p3Df*, p3Df const&) [140] std::_Vector_base<p3Df, std::allocator<p3Df> >::_M_allocate(unsigned int) [80] std::vector<int, std::allocator<int> >::clear()
+ [145] __gnu_cxx::new_allocator<p3Df>::new_allocator() [147] std::_Vector_base<p3Df, std::allocator<p3Df> >::_Vector_impl::_Vector_impl() [13] std::vector<int, std::allocator<int> >::push_back(int const&)
+ [150] __gnu_cxx::new_allocator<p3Df>::~new_allocator() [152] std::_Vector_base<p3Df, std::allocator<p3Df> >::_Vector_impl::~_Vector_impl() [16] std::vector<int, std::allocator<int> >::vector(std::vector<int, std::allocator<int> > const&)
+ [127] __gnu_cxx::new_allocator<triangle>::deallocate(triangle*, unsigned int) [123] std::_Vector_base<p3Df, std::allocator<p3Df> >::_M_deallocate(p3Df*, unsigned int) [69] std::vector<int, std::allocator<int> >::vector()
+ [128] __gnu_cxx::new_allocator<triangle>::allocate(unsigned int, void const*) [93] std::_Vector_base<p3Df, std::allocator<p3Df> >::_M_get_Tp_allocator() [70] std::vector<int, std::allocator<int> >::~vector()
+  [25] __gnu_cxx::new_allocator<triangle>::construct(triangle*, triangle const&) [148] std::_Vector_base<p3Df, std::allocator<p3Df> >::_Vector_base() [21] std::vector<int, std::allocator<int> >::operator[](unsigned int)
+ [158] __gnu_cxx::new_allocator<triangle>::new_allocator() [153] std::_Vector_base<p3Df, std::allocator<p3Df> >::~_Vector_base() [113] p3Df* std::__copy_move_a<false, p3Df*, p3Df*>(p3Df*, p3Df*, p3Df*)
+ [169] __gnu_cxx::new_allocator<triangle>::~new_allocator() [131] std::_Vector_base<triangle, std::allocator<triangle> >::_M_allocate(unsigned int) [102] triangle* std::__copy_move_a<false, triangle*, triangle*>(triangle*, triangle*, triangle*)
+  [52] __gnu_cxx::new_allocator<int>::deallocate(int*, unsigned int) [160] std::_Vector_base<triangle, std::allocator<triangle> >::_Vector_impl::_Vector_impl() [81] int* std::__copy_move_a<false, int const*, int*>(int const*, int const*, int*)
+  [50] __gnu_cxx::new_allocator<int>::allocate(unsigned int, void const*) [171] std::_Vector_base<triangle, std::allocator<triangle> >::_Vector_impl::~_Vector_impl() [40] int* std::__copy_move_a<false, int*, int*>(int*, int*, int*)
+  [23] __gnu_cxx::new_allocator<int>::construct(int*, int const&) [126] std::_Vector_base<triangle, std::allocator<triangle> >::_M_deallocate(triangle*, unsigned int) [82] int* std::__copy_move_a2<false, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, int*>(__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, int*)
+  [72] __gnu_cxx::new_allocator<int>::new_allocator(__gnu_cxx::new_allocator<int> const&) [94] std::_Vector_base<triangle, std::allocator<triangle> >::_M_get_Tp_allocator() [114] p3Df* std::__copy_move_a2<false, p3Df*, p3Df*>(p3Df*, p3Df*, p3Df*)
+  [61] __gnu_cxx::new_allocator<int>::new_allocator() [161] std::_Vector_base<triangle, std::allocator<triangle> >::_Vector_base() [103] triangle* std::__copy_move_a2<false, triangle*, triangle*>(triangle*, triangle*, triangle*)
+  [62] __gnu_cxx::new_allocator<int>::~new_allocator() [172] std::_Vector_base<triangle, std::allocator<triangle> >::~_Vector_base() [41] int* std::__copy_move_a2<false, int*, int*>(int*, int*, int*)
+ [108] __gnu_cxx::__normal_iterator<p3Df*, std::vector<p3Df, std::allocator<p3Df> > >::__normal_iterator(p3Df* const&) [51] std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned int) [83] int* std::uninitialized_copy<__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, int*>(__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, int*)
+  [97] __gnu_cxx::__normal_iterator<triangle*, std::vector<triangle, std::allocator<triangle> > >::__normal_iterator(triangle* const&) [76] std::_Vector_base<int, std::allocator<int> >::_Vector_impl::_Vector_impl(std::allocator<int> const&) [115] p3Df* std::uninitialized_copy<p3Df*, p3Df*>(p3Df*, p3Df*, p3Df*)
+  [57] __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >::__normal_iterator(int const* const&) [65] std::_Vector_base<int, std::allocator<int> >::_Vector_impl::_Vector_impl() [104] triangle* std::uninitialized_copy<triangle*, triangle*>(triangle*, triangle*, triangle*)
+  [37] __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >::__normal_iterator(int* const&) [66] std::_Vector_base<int, std::allocator<int> >::_Vector_impl::~_Vector_impl() [42] int* std::uninitialized_copy<int*, int*>(int*, int*, int*)
+ [138] __gnu_cxx::__normal_iterator<p3Df*, std::vector<p3Df, std::allocator<p3Df> > >::difference_type __gnu_cxx::operator-<p3Df*, std::vector<p3Df, std::allocator<p3Df> > >(__gnu_cxx::__normal_iterator<p3Df*, std::vector<p3Df, std::allocator<p3Df> > > const&, __gnu_cxx::__normal_iterator<p3Df*, std::vector<p3Df, std::allocator<p3Df> > > const&) [49] std::_Vector_base<int, std::allocator<int> >::_M_deallocate(int*, unsigned int) [84] int* std::__uninitialized_copy_a<__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, int*, int>(__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, int*, std::allocator<int>&)
+ [129] __gnu_cxx::__normal_iterator<triangle*, std::vector<triangle, std::allocator<triangle> > >::difference_type __gnu_cxx::operator-<triangle*, std::vector<triangle, std::allocator<triangle> > >(__gnu_cxx::__normal_iterator<triangle*, std::vector<triangle, std::allocator<triangle> > > const&, __gnu_cxx::__normal_iterator<triangle*, std::vector<triangle, std::allocator<triangle> > > const&) [33] std::_Vector_base<int, std::allocator<int> >::_M_get_Tp_allocator() [116] p3Df* std::__uninitialized_copy_a<p3Df*, p3Df*, p3Df>(p3Df*, p3Df*, p3Df*, std::allocator<p3Df>&)
+  [54] __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >::difference_type __gnu_cxx::operator-<int*, std::vector<int, std::allocator<int> > >(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > > const&, __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > > const&) [77] std::_Vector_base<int, std::allocator<int> >::_Vector_base(unsigned int, std::allocator<int> const&) [105] triangle* std::__uninitialized_copy_a<triangle*, triangle*, triangle>(triangle*, triangle*, triangle*, std::allocator<triangle>&)
+  [71] tetracone::tetracone() [67] std::_Vector_base<int, std::allocator<int> >::_Vector_base() [43] int* std::__uninitialized_copy_a<int*, int*, int>(int*, int*, int*, std::allocator<int>&)
+  [86] tetracone::~tetracone() [68] std::_Vector_base<int, std::allocator<int> >::~_Vector_base() [117] p3Df* std::__uninitialized_move_a<p3Df*, p3Df*, std::allocator<p3Df> >(p3Df*, p3Df*, p3Df*, std::allocator<p3Df>&)
+  [96] __gnu_cxx::new_allocator<p3Df>::max_size() const [59] std::__miter_base<__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, false>::__b(__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >) [106] triangle* std::__uninitialized_move_a<triangle*, triangle*, std::allocator<triangle> >(triangle*, triangle*, triangle*, std::allocator<triangle>&)
+  [95] __gnu_cxx::new_allocator<triangle>::max_size() const [92] std::__miter_base<p3Df*, false>::__b(p3Df*) [44] int* std::__uninitialized_move_a<int*, int*, std::allocator<int> >(int*, int*, int*, std::allocator<int>&)
+  [34] __gnu_cxx::new_allocator<int>::max_size() const [90] std::__miter_base<triangle*, false>::__b(triangle*) [53] unsigned int const& std::max<unsigned int>(unsigned int const&, unsigned int const&)
+  [91] __gnu_cxx::__normal_iterator<p3Df*, std::vector<p3Df, std::allocator<p3Df> > >::base() const [29] std::__miter_base<int*, false>::__b(int*) [85] int* std::copy<__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, int*>(__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, int*)
+  [89] __gnu_cxx::__normal_iterator<triangle*, std::vector<triangle, std::allocator<triangle> > >::base() const [60] std::__niter_base<__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, true>::__b(__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >) [118] p3Df* std::copy<p3Df*, p3Df*>(p3Df*, p3Df*, p3Df*)
+  [58] __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >::base() const [88] std::__niter_base<p3Df*, false>::__b(p3Df*) [107] triangle* std::copy<triangle*, triangle*>(triangle*, triangle*, triangle*)
+  [28] __gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >::base() const [87] std::__niter_base<triangle*, false>::__b(triangle*) [45] int* std::copy<int*, int*>(int*, int*, int*)
+ [109] std::_Vector_base<p3Df, std::allocator<p3Df> >::_M_get_Tp_allocator() const [27] std::__niter_base<int*, false>::__b(int*) [120] void std::_Destroy<p3Df*>(p3Df*, p3Df*)
+  [98] std::_Vector_base<triangle, std::allocator<triangle> >::_M_get_Tp_allocator() const [78] int* std::__uninitialized_copy<true>::uninitialized_copy<__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, int*>(__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, int*) [121] void std::_Destroy<p3Df*, p3Df>(p3Df*, p3Df*, std::allocator<p3Df>&)
+  [35] std::_Vector_base<int, std::allocator<int> >::_M_get_Tp_allocator() const [112] p3Df* std::__uninitialized_copy<true>::uninitialized_copy<p3Df*, p3Df*>(p3Df*, p3Df*, p3Df*) [124] void std::_Destroy<triangle*>(triangle*, triangle*)
+ [139] std::vector<p3Df, std::allocator<p3Df> >::_M_check_len(unsigned int, char const*) const [101] triangle* std::__uninitialized_copy<true>::uninitialized_copy<triangle*, triangle*>(triangle*, triangle*, triangle*) [125] void std::_Destroy<triangle*, triangle>(triangle*, triangle*, std::allocator<triangle>&)
+  [30] std::vector<p3Df, std::allocator<p3Df> >::size() const [39] int* std::__uninitialized_copy<true>::uninitialized_copy<int*, int*>(int*, int*, int*) [47] void std::_Destroy<int*>(int*, int*)
+ [110] std::vector<p3Df, std::allocator<p3Df> >::max_size() const [141] std::vector<p3Df, std::allocator<p3Df> >::_M_insert_aux(__gnu_cxx::__normal_iterator<p3Df*, std::vector<p3Df, std::allocator<p3Df> > >, p3Df const&) [48] void std::_Destroy<int*, int>(int*, int*, std::allocator<int>&)
+ [130] std::vector<triangle, std::allocator<triangle> >::_M_check_len(unsigned int, char const*) const [154] std::vector<p3Df, std::allocator<p3Df> >::_M_erase_at_end(p3Df*) [22] operator new(unsigned int, void*)

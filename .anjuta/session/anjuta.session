@@ -1,0 +1,29 @@
+
+[Anjuta]
+Maximized=1
+Geometry=1680x913+0+48
+
+[Project Manager]
+Shortcut=E file:///home/amalbala/Dropbox/InteraccionTT/src interacciontt 
+
+[File Loader]
+Files=file:///home/amalbala/Dropbox/InteraccionTT/src/splittriangles.cpp#1%%%file:///home/amalbala/Dropbox/InteraccionTT/src/Events.cpp#1064%%%file:///home/amalbala/Dropbox/InteraccionTT/src/tetratree.cpp#1161
+
+[Document Manager]
+bookmarks=<?xml version="1.0" encoding="UTF-8"?>\n<bookmarks/>\n
+
+[Execution]
+Program uri=file:///home/amalbala/Dropbox/InteraccionTT/Debug/src/interacciontt
+Run in terminal=2
+Working directories=file:///home/amalbala/Dropbox/InteraccionTT
+
+[Build]
+Configuration list=1:Default:%%%1:Debug:Debug%%%1:Profiling:Profiling%%%1:Optimized:Optimized
+Selected Configuration=Debug
+BuildArgs/Default=--enable-maintainer-mode
+BuildArgs/Debug=--enable-maintainer-mode 'CFLAGS=-g -O0' 'CXXFLAGS=-g -O0' 'JFLAGS=-g -O0' 'FFLAGS=-g -O0'
+BuildArgs/Profiling=--enable-maintainer-mode 'CFLAGS=-g -pg' 'CXXFLAGS=-g -pg' 'JFLAGS=-g -pg' 'FFLAGS=-g -pg'
+BuildArgs/Optimized=--enable-maintainer-mode 'CFLAGS=-O2' 'CXXFLAGS=-O2' 'JFLAGS=-O2' 'FFLAGS=-O2'
+
+[Debugger]
+Stop at beginning=2

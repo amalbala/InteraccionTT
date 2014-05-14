@@ -1,0 +1,1284 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"image",
+				"imagelowres"
+			],
+			[
+				"base",
+				"base_test3"
+			],
+			[
+				"c",
+				"OpenCVHistogram"
+			],
+			[
+				"Hi",
+				"Histogram"
+			],
+			[
+				"Hisgr",
+				"HistogramComparator"
+			],
+			[
+				"His",
+				"HistogramComparator"
+			],
+			[
+				"Imag",
+				"Imag1"
+			],
+			[
+				"hist",
+				"hist_test3"
+			],
+			[
+				"hsv_tes",
+				"hsv_test3"
+			],
+			[
+				"im",
+				"imagelowres"
+			],
+			[
+				"I",
+				"INCLUDES"
+			],
+			[
+				"L",
+				"LFLAGS"
+			],
+			[
+				"d",
+				"def	#ifndef … #define … #endif"
+			],
+			[
+				"o",
+				"overflow_error	class"
+			],
+			[
+				"ma",
+				"maxValue	int"
+			],
+			[
+				"ca",
+				"CalculatorTest"
+			],
+			[
+				"Ca",
+				"CalculatorTest"
+			],
+			[
+				"MAi",
+				"MAINOBJ"
+			],
+			[
+				"C",
+				"COMMONOBJS"
+			],
+			[
+				"TEST",
+				"TESTOBJ"
+			],
+			[
+				"Calc",
+				"CalculatorTest"
+			],
+			[
+				"ar",
+				"arg2"
+			],
+			[
+				"a",
+				"arg1"
+			],
+			[
+				"in",
+				"int"
+			],
+			[
+				"cal",
+				"calculator"
+			],
+			[
+				"CA",
+				"CalculatorTest"
+			],
+			[
+				"Cal",
+				"CalculatorTest"
+			],
+			[
+				"arg",
+				"arg2"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "constants.h",
+			"settings":
+			{
+				"buffer_size": 592,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Events.cpp",
+			"settings":
+			{
+				"buffer_size": 31932,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "geometry.cpp",
+			"settings":
+			{
+				"buffer_size": 2958,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "inclussion.cpp",
+			"settings":
+			{
+				"buffer_size": 10669,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Searching 23 files for \"jimenezOptNew\"\n\n/Users/antoniomartinez/Dropbox/Proyectos/InteraccionTT/src/Events.cpp:\n 1013  			//intersect_Ray(p, c, orig, &r);\n 1014  			jimenezOpt(&p,&c,&orig,&r);\n 1015: 			//jimenezOptNew(&p,&c,&orig,p,p,p,p,0.5,&r);	\n 1016  		tiempo2 = clock();\n 1017  		tiempo +=(tiempo2-tiempo1)/(double)CLOCKS_PER_SEC; \n\n/Users/antoniomartinez/Dropbox/Proyectos/InteraccionTT/src/inclussion.cpp:\n  107  }\n  108  /*---------------------------------------------------------------------------*/\n  109: int jimenezOptNew(p3Df * q1, p3Df * q2,trian_ext *tt,p3Df a,p3Df b,p3Df c, p3Df w1,float w, float *alpha) {\n  110  	double Q2[3],V3[3],B[3],C[3],W1[3];\n  111  	STORE(Q2,*q2);\n\n/Users/antoniomartinez/Dropbox/Proyectos/InteraccionTT/src/inclussion.h:\n   11  int jimenezOpt(p3Df * q1, p3Df * q2,trian_ext *tt, float *alpha);\n   12  int jimenezOptmin(p3Df * q1, p3Df * q2,trian_ext *tt, float *alpha);\n   13: int jimenezOptNew(p3Df * q1, p3Df * q2,trian_ext *tt,p3Df a,p3Df b,p3Df c, p3Df w1, float w, float *alpha);\n   14  int inclusionPoint(p3Df p, mesh* m, int interType);\n   15  int JordanCurve(p3Df p, mesh* m, int interType);\n\n/Users/antoniomartinez/Dropbox/Proyectos/InteraccionTT/src/tetratree.cpp:\n  274  	    orig.v2.x,orig.v2.y,orig.v2.z);\n  275  		 */		\n  276: 		int res = jimenezOptNew(&centroid,&p,&orig,t->tetrac->b,t->tetrac->b,t->tetrac->c,t->tetrac->w1,t->tetrac->w,&alpha);\n  277  		if (res == 5){		\n  278  			if((mAlpha > alpha) && (alpha > EPSILON)){\n\n4 matches across 4 files\n",
+			"settings":
+			{
+				"buffer_size": 1510,
+				"line_ending": "Unix",
+				"name": "Find Results",
+				"scratch": true
+			}
+		},
+		{
+			"file": "geometry.h",
+			"settings":
+			{
+				"buffer_size": 2668,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "inclussion.h",
+			"settings":
+			{
+				"buffer_size": 516,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "intersection.cpp",
+			"settings":
+			{
+				"buffer_size": 6594,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "intersection.h",
+			"settings":
+			{
+				"buffer_size": 492,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "IOUtils.cpp",
+			"settings":
+			{
+				"buffer_size": 2518,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "IOUtils.h",
+			"settings":
+			{
+				"buffer_size": 194,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "p3Df.cpp",
+			"settings":
+			{
+				"buffer_size": 1664,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "p3Df.h",
+			"settings":
+			{
+				"buffer_size": 2945,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "splittriangles.cpp",
+			"settings":
+			{
+				"buffer_size": 25208,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "splittriangles.h",
+			"settings":
+			{
+				"buffer_size": 1208,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "tetratree.cpp",
+			"settings":
+			{
+				"buffer_size": 68638,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "tetratree.h",
+			"settings":
+			{
+				"buffer_size": 1478,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "profilerC.txt",
+			"settings":
+			{
+				"buffer_size": 131950,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "TestInclusion.txt",
+			"settings":
+			{
+				"buffer_size": 183,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "profC.txt",
+			"settings":
+			{
+				"buffer_size": 131529,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "main.cc",
+			"settings":
+			{
+				"buffer_size": 889,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Package Control Messages\n========================\n\nLaTeXTools:\n----------\n\n  LaTeXTools Plugin version 2012-10-25 ??? changelog:\n  \n  New features:\n  \n  - HIGHLIGHT: merged the new, more robust log parsing code. This should resolve many\n    parsing issues reported by users, but let me know if problems persists. It was a\n    major code rewrite, and I tested it as best I could; only \"battle-testing\" it\n    on different users' machines will bring out any remaining issues.  \n  \n  - Support for MiKTeX is now again more or less on par with TeXlive on Windows. Use\n    whichever you prefer.\n  \n  Bugs fixed:\n  \n  - \\include{} and \\input{} reference files from the master file directory; fixed\n    ref/cite completion so it matches LaTeX's behavior (otherwise labels/bibfiles\n    were not found)\n  \n  - Improved non-intrusive error reporting in ref/cite completion\n  \n  - Robustified makePDF so (more) errors are explicitly reported.\n  \n",
+			"settings":
+			{
+				"buffer_size": 935,
+				"line_ending": "Unix",
+				"name": "Package Control Messages",
+				"scratch": true
+			}
+		},
+		{
+			"file": "/Users/antoniomartinez/Downloads/GLPaint/Classes/AppController.h",
+			"settings":
+			{
+				"buffer_size": 2948,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Makefile.in",
+			"settings":
+			{
+				"buffer_size": 18467,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Makefile.am.bak",
+			"settings":
+			{
+				"buffer_size": 840,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Makefile.am",
+			"settings":
+			{
+				"buffer_size": 846,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/Makefile/Make.sublime-build",
+	"command_palette":
+	{
+		"height": 267.0,
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Remove Package"
+			],
+			[
+				"snippet",
+				"Snippet: #include <…>"
+			],
+			[
+				"Snippet: ",
+				"Snippet: main()"
+			],
+			[
+				"P",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 291.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/antoniomartinez/MindR3D/imagecomparator/Image.cpp",
+		"/Users/antoniomartinez/Dropbox/CEIG2012/egPublStyle-CEIG12/EGauthorGuidelines-ceig12-fin.tex",
+		"/Users/antoniomartinez/MindR3D/imagecomparator/Image.h",
+		"/Users/antoniomartinez/MindR3D/imagecomparator/main.cpp",
+		"/Users/antoniomartinez/MindR3D/imagecomparator/Makefile",
+		"/Users/antoniomartinez/MindR3D/imagecomparator/Histogram.h",
+		"/Users/antoniomartinez/MindR3D/imagecomparator/Histogram.cpp",
+		"/Users/antoniomartinez/MindR3D/imagecomparator/HistogramComparator.h",
+		"/Users/antoniomartinez/MindR3D/imagecomparator/HistogramComparator.cpp",
+		"/Users/antoniomartinez/MindR3D/imagecomparator/ImageComparator.cpp",
+		"/Users/antoniomartinez/MindR3D/imagecomparator/ImageComparator.h",
+		"/Users/antoniomartinez/MindR3D/imagecomparator/ImageComparatorAgenda",
+		"/Users/antoniomartinez/MindR3D/imagecomparator/ImageComparatorTest.cpp",
+		"/Users/antoniomartinez/Project/ImageProcessingLib/main.cpp",
+		"/Users/antoniomartinez/Project/ImageProcessingLib/Makefile",
+		"/Users/antoniomartinez/Project/ImageProcessingLib/Calculator.h",
+		"/Users/antoniomartinez/Project/ImageProcessingLib/Calculator.cpp",
+		"/Users/antoniomartinez/Project/ImageProcessingLib/CalculatorTest.cpp",
+		"/Users/antoniomartinez/Library/Application Support/Sublime Text 2/Packages/User/snippetempty",
+		"/Users/antoniomartinez/Library/Application Support/Sublime Text 2/Packages/User/SublimeOnSaveBuild.sublime-settings",
+		"/Users/antoniomartinez/Project/ImageProcessingLib/test.css",
+		"/Users/antoniomartinez/Project/ImageProcessingLib/CalculatorTest",
+		"/Users/antoniomartinez/Library/Application Support/Sublime Text 2/Packages/SublimeClang/SublimeClang.sublime-settings",
+		"/Users/antoniomartinez/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/antoniomartinez/Library/Application Support/Sublime Text 2/Packages/SublimeAStyleFormatter/SublimeAStyleFormatter.sublime-settings",
+		"/Users/antoniomartinez/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/antoniomartinez/Library/Application Support/Sublime Text 2/Packages/SublimeOnSaveBuild/SublimeOnSaveBuild.sublime-settings",
+		"/Users/antoniomartinez/Project/ImageProcessingLib/Makefile.css",
+		"/Users/antoniomartinez/Library/Application Support/Sublime Text 2/Packages/User/Terminal.sublime-settings",
+		"/Users/antoniomartinez/Documents/Makefile",
+		"/Users/antoniomartinez/Project/Entorno2D/Entorno2D/binarizar.cpp",
+		"/Users/antoniomartinez/Documents/prueba.cpp"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"jimenezOptNew",
+			"hist_test1",
+			"hsv_im",
+			"hist_test1",
+			"hist_half_down",
+			"hsv_half_down",
+			"Calculator",
+			"()){",
+			"int",
+			"Upper",
+			"MAINOBJ",
+			"100",
+			"superior",
+			"Aceptacio",
+			"Aceptacion",
+			"FooTest",
+			"term"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "constants.h",
+					"settings":
+					{
+						"buffer_size": 592,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 86.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "Events.cpp",
+					"settings":
+					{
+						"buffer_size": 31932,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 16187.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "geometry.cpp",
+					"settings":
+					{
+						"buffer_size": 2958,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "inclussion.cpp",
+					"settings":
+					{
+						"buffer_size": 10669,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5508,
+								5521
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 3552.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"settings":
+					{
+						"buffer_size": 1510,
+						"regions":
+						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										204,
+										217
+									],
+									[
+										520,
+										533
+									],
+									[
+										925,
+										938
+									],
+									[
+										1297,
+										1310
+									]
+								],
+								"scope": ""
+							}
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"detect_indentation": false,
+							"output_tag": 1,
+							"result_base_dir": "",
+							"result_file_regex": "^([A-Za-z\\\\/<].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "geometry.h",
+					"settings":
+					{
+						"buffer_size": 2668,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "inclussion.h",
+					"settings":
+					{
+						"buffer_size": 516,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "intersection.cpp",
+					"settings":
+					{
+						"buffer_size": 6594,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 2798.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "intersection.h",
+					"settings":
+					{
+						"buffer_size": 492,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "IOUtils.cpp",
+					"settings":
+					{
+						"buffer_size": 2518,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "IOUtils.h",
+					"settings":
+					{
+						"buffer_size": 194,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "p3Df.cpp",
+					"settings":
+					{
+						"buffer_size": 1664,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "p3Df.h",
+					"settings":
+					{
+						"buffer_size": 2945,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "splittriangles.cpp",
+					"settings":
+					{
+						"buffer_size": 25208,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "splittriangles.h",
+					"settings":
+					{
+						"buffer_size": 1208,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "tetratree.cpp",
+					"settings":
+					{
+						"buffer_size": 68638,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 16,
+					"file": "tetratree.h",
+					"settings":
+					{
+						"buffer_size": 1478,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"tab_size": 8,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 5,
+			"sheets":
+			[
+				{
+					"buffer": 17,
+					"file": "profilerC.txt",
+					"settings":
+					{
+						"buffer_size": 131950,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 18,
+					"file": "TestInclusion.txt",
+					"settings":
+					{
+						"buffer_size": 183,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 19,
+					"file": "profC.txt",
+					"settings":
+					{
+						"buffer_size": 131529,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 20,
+					"file": "main.cc",
+					"settings":
+					{
+						"buffer_size": 889,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 21,
+					"settings":
+					{
+						"buffer_size": 935,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								935,
+								935
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 22,
+					"file": "/Users/antoniomartinez/Downloads/GLPaint/Classes/AppController.h",
+					"settings":
+					{
+						"buffer_size": 2948,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2875,
+								2813
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 276.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 23,
+					"file": "Makefile.in",
+					"settings":
+					{
+						"buffer_size": 18467,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 24,
+					"file": "Makefile.am.bak",
+					"settings":
+					{
+						"buffer_size": 840,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 25,
+					"file": "Makefile.am",
+					"settings":
+					{
+						"buffer_size": 846,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.clang":
+	{
+		"height": 112.0
+	},
+	"output.exec":
+	{
+		"height": 148.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"m",
+				"Makefile"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 301.0,
+	"status_bar_visible": true
+}
